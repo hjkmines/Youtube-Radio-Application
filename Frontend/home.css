@@ -18,6 +18,16 @@ h1 {
 
 }
 
+.articles {
+  width: 788px; 
+  height: 410px; 
+}
+
+.images {
+  width 780px; 
+  height: 445px; 
+}
+
 .flexer {
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +43,18 @@ h1 {
   font-size: 21px;
   margin-right: 35px;
   margin-left: 20px;
+}
+
+#text-links {
+  display: flex; 
+  justify-content: center; 
+  background-color: cornsilk;
+  
+}
+
+#linkers {
+  color: black;
+  padding: 5px 5px 5px 5px; 
 }
 
 #second-header {
