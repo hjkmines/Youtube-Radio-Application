@@ -1,14 +1,28 @@
 body {
-  background-image: url('../Frontend/images/youtube_wall.jpg');
+  background-image: url('https://phandroid.com/wp-content/uploads/2017/08/youtube-background-640x438.png');
 }
 
 form {
   margin: auto;
-  margin-top: 250px;
+  margin-top: 210px;
+  border: black;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: medium;
+  background-color: seashell;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 25px; 
 }
 
 #header {
   margin-top: 50px;
+  color: white; 
 }
 
 #submit {
@@ -17,4 +31,8 @@ form {
 
 label#password {
   margin-top: 25px;
+}
+
+button.btn {
+  margin-top: 15px;
 }
