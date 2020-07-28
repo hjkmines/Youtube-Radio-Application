@@ -18,9 +18,14 @@ h1 {
 
 }
 
+.flexer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .nav-link {
-  margin-left: 7px; 
-  margin-right: 7px;
+  margin-left: 10px; 
+  margin-right: 10px;
 }
 
 #brand {
