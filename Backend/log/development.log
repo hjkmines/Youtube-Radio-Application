@@ -484,3 +484,91 @@ Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.6ms | Allocations: 252
 Completed 200 OK in 35ms (Views: 29.8ms | ActiveRecord: 0.8ms | Allocations: 4153)
 
 
+Started GET "/images" for ::1 at 2020-07-28 22:36:16 -0600
+Started GET "/articles" for ::1 at 2020-07-28 22:36:16 -0600
+Processing by ImagesController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mImage Load (2.0ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/images_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.5ms | Allocations: 3974)
+
+
+Completed 200 OK in 36ms (Views: 30.7ms | ActiveRecord: 2.0ms | Allocations: 2718)
+
+
+Started GET "/articles" for ::1 at 2020-07-28 22:41:51 -0600
+Started GET "/images" for ::1 at 2020-07-28 22:41:51 -0600
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by ImagesController#index as */*
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  [1m[36mImage Load (0.8ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+Completed 200 OK in 45ms (Views: 38.3ms | ActiveRecord: 1.1ms | Allocations: 2595)
+
+
+  ↳ app/controllers/images_controller.rb:5:in `index'
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.8ms | Allocations: 3554)
+
+
+Started GET "/articles" for ::1 at 2020-07-28 22:42:04 -0600
+Processing by ArticlesController#index as */*
+Started GET "/images" for ::1 at 2020-07-28 22:42:04 -0600
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Processing by ImagesController#index as */*
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.8ms | Allocations: 2901)
+
+
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.6ms | Allocations: 3521)
+
+
+Started GET "/images" for ::1 at 2020-07-28 22:42:07 -0600
+Processing by ImagesController#index as */*
+Started GET "/articles" for ::1 at 2020-07-28 22:42:07 -0600
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.3ms | Allocations: 2195)
+
+
+  ↳ app/controllers/images_controller.rb:5:in `index'
+Completed 200 OK in 184ms (Views: 183.0ms | ActiveRecord: 0.3ms | Allocations: 4603)
+
+
+Started GET "/images" for ::1 at 2020-07-28 22:42:10 -0600
+Started GET "/articles" for ::1 at 2020-07-28 22:42:10 -0600
+Processing by ImagesController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/images_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.5ms | Allocations: 2718)
+
+
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.6ms | Allocations: 3974)
+
+
+Started GET "/images" for ::1 at 2020-07-28 23:04:01 -0600
+Started GET "/articles" for ::1 at 2020-07-28 23:04:01 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ImagesController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mImage Load (3.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mArticle Load (2.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/images_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 57ms (Views: 53.8ms | ActiveRecord: 2.5ms | Allocations: 3999)
+
+
+Completed 200 OK in 85ms (Views: 71.5ms | ActiveRecord: 3.6ms | Allocations: 2754)
+
+

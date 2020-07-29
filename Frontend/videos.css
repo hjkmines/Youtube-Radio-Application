@@ -1,0 +1,33 @@
+body {
+  background-image: url('/youtube_wall.png');
+}
+
+.first-row {
+  margin-top: 80px;
+}
+
+.last-row {
+  margin-bottom: 100px;
+}
+
+.card {
+  margin-top: 45px;
+}
+
+.nav-link {
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
+#brand {
+  color: white;
+  font-size: 21px;
+  margin-right: 35px;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
