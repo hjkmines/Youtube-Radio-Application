@@ -1,0 +1,130 @@
+  [1m[35m (7.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArticles (20200728211454)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "image" varchar, "url" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200728211454"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateImages (20200728211629)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "images" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200728211629"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateUsers (20200728211722)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "email" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (3.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200728211722"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-28 21:17:33.140548"], ["updated_at", "2020-07-28 21:17:33.140548"]]
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mImage Load (0.8ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Joey Bosa and Chargers come to terms on an NFL record five-year, $135 million extension - CBS Sports"], ["image", "https://sportshub.cbsistatic.com/i/r/2016/10/28/37362a4b-191e-4b30-bce1-324fa0517edc/thumbnail/1200x675/13826f2aeab91c0a6703290e3f363de2/joey-bosa.jpg"], ["url", "https://www.cbssports.com/nfl/news/joey-bosa-and-chargers-come-to-terms-on-an-nfl-record-five-year-135-million-extension-per-report/"], ["created_at", "2020-07-29 03:51:21.783740"], ["updated_at", "2020-07-29 03:51:21.783740"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "This Throwback Video of Prince William Dancing to Nelly Furtado Is Legendary - Showbiz Cheat Sheet"], ["image", "https://www.cheatsheet.com/wp-content/uploads/2019/05/scs-icon.png"], ["url", "https://www.cheatsheet.com/entertainment/prince-william-dancing-video.html/"], ["created_at", "2020-07-29 03:51:21.791528"], ["updated_at", "2020-07-29 03:51:21.791528"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Kim Kardashian fears Kanye West 'may have hit rock bottom' - Page Six"], ["image", "https://pagesix.com/wp-content/uploads/sites/3/2020/07/Kim-Kardashian-and-Kanye-West.jpg?quality=90&strip=all&w=1200"], ["url", "https://pagesix.com/2020/07/28/kim-kardashian-fears-kanye-west-may-have-hit-rock-bottom/"], ["created_at", "2020-07-29 03:51:21.798814"], ["updated_at", "2020-07-29 03:51:21.798814"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Republicans revolt against GOP's initial stimulus plan - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200518181852-senator-ben-sasse-1-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/28/politics/republican-reaction-gop-stimulus-plan/index.html"], ["created_at", "2020-07-29 03:51:21.804714"], ["updated_at", "2020-07-29 03:51:21.804714"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Dr. Fauci on MLB season after Marlins' coronavirus outbreak: 'This could put it in danger' - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/07/Fauci-Miami-Marlins.jpg"], ["url", "https://www.foxnews.com/sports/dr-fauci-mlb-season-marlins-coronavirus-in-danger"], ["created_at", "2020-07-29 03:51:21.812086"], ["updated_at", "2020-07-29 03:51:21.812086"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Coronavirus: Scaled back Hajj pilgrimage due to start in Saudi Arabia - BBC News"], ["image", "https://ichef.bbci.co.uk/news/1024/branded_news/2BAA/production/_113687111_062673037-1.jpg"], ["url", "https://www.bbc.com/news/world-middle-east-53571886"], ["created_at", "2020-07-29 03:51:21.819517"], ["updated_at", "2020-07-29 03:51:21.819517"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Full list of 2020 Emmy nominations: Watchmen scores 26 nods, Ozark gets 18 - CNET"], ["image", "https://cnet4.cbsistatic.com/img/f9EBn8IP5vsQ9GlDphFZ2L1dEEw=/2019/12/30/a31a5c81-1687-4253-85ff-65717d67aa32/twitter-in-stream-wide-watchmen.jpg"], ["url", "https://www.cnet.com/news/full-list-of-2020-emmy-nominations-watchmen-scores-26-nods-ozark-gets-18/"], ["created_at", "2020-07-29 03:51:21.847579"], ["updated_at", "2020-07-29 03:51:21.847579"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Study: Blood test for Alzheimer's detects signs 20 years before memory, thinking falter - USA TODAY"], ["image", "https://www.gannett-cdn.com/-mm-/b2b05a4ab25f4fca0316459e1c7404c537a89702/c=0-0-1365-768/local/-/media/2019/12/10/USATODAY/usatsports/247WallSt.com-247WS-597722-imageforentry2-tki.jpg?width=1600&height=800&fit=crop"], ["url", "https://www.usatoday.com/story/news/health/2020/07/28/studies-show-new-blood-test-can-accurately-diagnose-alzheimers/5530470002/"], ["created_at", "2020-07-29 03:51:21.853750"], ["updated_at", "2020-07-29 03:51:21.853750"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bezos to stress 'strikingly large' global retail market, jobs in opening remarks before Congress | TheHill - The Hill"], ["image", "https://thehill.com/sites/default/files/jeffbezos_09062012.jpg"], ["url", "https://thehill.com/policy/technology/509484-bezos-to-stress-strikingly-large-global-retail-market-jobs-in-opening"], ["created_at", "2020-07-29 03:51:21.861881"], ["updated_at", "2020-07-29 03:51:21.861881"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Inside Portland Clashes Between Protesters And Federal Agents | NBC Nightly News - NBC News"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NDkzZ0NDcy1CZUXSAQA?oc=5"], ["created_at", "2020-07-29 03:51:21.870211"], ["updated_at", "2020-07-29 03:51:21.870211"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/0/5616/3744"], ["created_at", "2020-07-29 03:51:21.883682"], ["updated_at", "2020-07-29 03:51:21.883682"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1/5616/3744"], ["created_at", "2020-07-29 03:51:21.889987"], ["updated_at", "2020-07-29 03:51:21.889987"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/10/2500/1667"], ["created_at", "2020-07-29 03:51:21.898138"], ["updated_at", "2020-07-29 03:51:21.898138"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/100/2500/1656"], ["created_at", "2020-07-29 03:51:21.910733"], ["updated_at", "2020-07-29 03:51:21.910733"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1000/5626/3635"], ["created_at", "2020-07-29 03:51:21.934377"], ["updated_at", "2020-07-29 03:51:21.934377"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1001/5616/3744"], ["created_at", "2020-07-29 03:51:21.949439"], ["updated_at", "2020-07-29 03:51:21.949439"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1002/4312/2868"], ["created_at", "2020-07-29 03:51:21.963127"], ["updated_at", "2020-07-29 03:51:21.963127"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1003/1181/1772"], ["created_at", "2020-07-29 03:51:21.977193"], ["updated_at", "2020-07-29 03:51:21.977193"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1004/5616/3744"], ["created_at", "2020-07-29 03:51:21.988315"], ["updated_at", "2020-07-29 03:51:21.988315"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-07-29 03:51:22.022551"], ["updated_at", "2020-07-29 03:51:22.022551"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/articles" for ::1 at 2020-07-28 21:53:07 -0600
+Started GET "/images" for ::1 at 2020-07-28 21:53:07 -0600
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.8ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:5:in `index'
+Completed 200 OK in 38ms (Views: 30.6ms | ActiveRecord: 2.9ms | Allocations: 5345)
+
+
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 54ms (Views: 47.2ms | ActiveRecord: 3.2ms | Allocations: 6593)
+
+
+Started GET "/images" for ::1 at 2020-07-28 21:53:45 -0600
+Started GET "/articles" for ::1 at 2020-07-28 21:53:45 -0600
+Processing by ImagesController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mImage Load (2.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mArticle Load (3.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/images_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 64ms (Views: 57.0ms | ActiveRecord: 2.4ms | Allocations: 2778)
+
+
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 3.4ms | Allocations: 3999)
+
+
