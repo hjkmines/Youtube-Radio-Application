@@ -18,6 +18,11 @@ h1 {
 
 }
 
+.category {
+  text-align: center;
+  
+}
+
 .articles {
   width: 788px; 
   height: 410px; 
@@ -95,4 +100,10 @@ h1 {
 
 #video-title {
   color: white;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
 }
