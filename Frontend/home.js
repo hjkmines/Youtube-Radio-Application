@@ -2,6 +2,7 @@ const news_url = "http://localhost:3000/articles"
 const images_url = "http://localhost:3000/images"
 const $newsCarousel = document.querySelector(".carousel-news")
 const $imagesCarousel = document.querySelector(".carousel-images")
+const $headlines = document.querySelector(".headlines")
 
 fetch(news_url)
   .then(response => response.json())
@@ -20,6 +21,12 @@ fetch(news_url)
       $div.classList.add("carousel-item")
       $div.innerHTML = `<div id="text-links"><a id="linkers" href="${articles[i].url}">${articles[i].title}</a></div><img class="d-block w-100 articles" src="${articles[i].image}" alt="First slide"></img>`
       $newsCarousel.append($div)
+    }
+
+    for (i=10; i < 15; i++) {
+      const $li = document.createElement("li")
+      $li.textContent = articles[i].title 
+      $headlines.append($li)
     }
 
   })

@@ -81,16 +81,6 @@ h1 {
   border-style: solid;
 }
 
-#photo-slide {
-  width: 800px;
-  height: 500px; 
-  margin-top: 20px;
-  background-color: lightslategrey;
-  border: black;
-  border-width: 6px;
-  border-style: solid;
-}
-
 #video-title {
   display: flex;
   justify-content: center;

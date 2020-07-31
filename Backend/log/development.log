@@ -750,3 +750,144 @@ Processing by ArticlesController#index as */*
 Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 2205)
 
 
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 11]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 12]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 13]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 14]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 15]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 16]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 17]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 18]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 19]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 20]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 11]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.3ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 12]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 13]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 14]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.3ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 15]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 16]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 17]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 18]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 19]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 20]]
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.1ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Trump reboots TV ad strategy with focus on early-voting states - POLITICO"], ["image", "https://static.politico.com/32/ce/171c4c4945f49393a0ea065cc4be/190412-bill-stepien-ap-773.jpg"], ["url", "https://www.politico.com/news/2020/07/31/trump-tv-ad-strategy-early-voting-states-389845"], ["created_at", "2020-07-31 23:59:31.812894"], ["updated_at", "2020-07-31 23:59:31.812894"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "James Murdoch resigns from the board of News Corp, citing 'disagreements over certain editorial content' - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200731174228-james-murdoch-file-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/media/james-murdoch-resigns-news-corp/index.html"], ["created_at", "2020-07-31 23:59:31.820228"], ["updated_at", "2020-07-31 23:59:31.820228"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "'Ellen' Producer Faces Sexual Misconduct Allegations - Inside Edition"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ODZ5ZDJoR2VqZEXSAQA?oc=5"], ["created_at", "2020-07-31 23:59:31.827825"], ["updated_at", "2020-07-31 23:59:31.827825"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Beyonce offers rare glimpse of twins Sir and Rumi, three, in visual album Black Is King - Daily Mail"], ["image", "https://i.dailymail.co.uk/1s/2020/07/31/22/31428996-0-image-a-144_1596230091277.jpg"], ["url", "https://www.dailymail.co.uk/tvshowbiz/article-8581953/Beyonce-offers-rare-glimpse-twins-Sir-Rumi-three-visual-album-Black-King.html"], ["created_at", "2020-07-31 23:59:31.835794"], ["updated_at", "2020-07-31 23:59:31.835794"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Despite Historic Plunge, Europe’s Economy Flashes Signs of Recovery - The New York Times"], ["image", "https://static01.nyt.com/images/2020/07/31/business/31eu-econ-promo/31eu-econ-promo-facebookJumbo.jpg"], ["url", "https://www.nytimes.com/2020/07/31/business/europe-economy-recovery-coronavirus.html"], ["created_at", "2020-07-31 23:59:31.843315"], ["updated_at", "2020-07-31 23:59:31.843315"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Sources - MLB commissioner warns of shutdown if coronavirus isn't better managed - ESPN"], ["image", "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0731%2Fr726058_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/mlb/story/_/id/29572885/sources-mlb-commissioner-warns-shutdown-players-do-better-job-managing-coronavirus"], ["created_at", "2020-07-31 23:59:31.850759"], ["updated_at", "2020-07-31 23:59:31.850759"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "WHO reports record daily rise in global coronavirus cases: Live - Al Jazeera English"], ["image", "https://www.aljazeera.com/mritems/Images/2020/7/30/a1da1a9453a2410a9d98ac93c69ab79b_18.jpg"], ["url", "https://www.aljazeera.com/news/2020/07/vietnam-reports-record-jump-coronavirus-cases-live-updates-200730235247008.html"], ["created_at", "2020-07-31 23:59:31.855835"], ["updated_at", "2020-07-31 23:59:31.855835"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "California Coronavirus Update: First Teen Death From Virus Confirmed In State As Death Toll Passes 9,000 - Deadline"], ["image", "https://pmcdeadline2.files.wordpress.com/2020/07/ap_20194054060948.jpg?w=1024"], ["url", "https://deadline.com/2020/07/california-coronavirus-first-teen-death-confirmed-1203001018/"], ["created_at", "2020-07-31 23:59:31.861040"], ["updated_at", "2020-07-31 23:59:31.861040"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Federal appeals court tosses Tsarnaev death sentence, orders new penalty-phase trial - The Boston Globe"], ["image", "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/ngU8T8n9d11C2Chpb3V3EePM2rc=/506x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/L76BE3AH6AI6VNN5FKKTEK257Y.jpg"], ["url", "https://www.bostonglobe.com/2020/07/31/metro/federal-appeals-court-tosses-tsarnaev-death-sentence-orders-new-penalty-phase-trial/"], ["created_at", "2020-07-31 23:59:31.866896"], ["updated_at", "2020-07-31 23:59:31.866896"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fitch Revises United States' Outlook to Negative; Affirms at AAA - Fitch Ratings"], ["url", "https://www.fitchratings.com/research/sovereigns/fitch-revises-united-states-outlook-to-negative-affirms-at-aaa-31-07-2020"], ["created_at", "2020-07-31 23:59:31.872921"], ["updated_at", "2020-07-31 23:59:31.872921"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Alan Parker, ‘Bugsy Malone,’ ‘Midnight Express’ director, dead at 76 - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/07/Alan-Parker_Getty.jpg"], ["url", "https://www.foxnews.com/entertainment/alan-parker-bugsy-malone-midnight-express-director-dead-at-76"], ["created_at", "2020-07-31 23:59:31.879684"], ["updated_at", "2020-07-31 23:59:31.879684"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Children and staff at Georgia overnight camp test positive for coronavirus, CDC says - NBC News"], ["image", "https://media2.s-nbcnews.com/j/newscms/2020_31/3401314/200731-georgia-coronavirus-testing-ac-231p_611ec294d7d9492c81363f627d2a9634.nbcnews-fp-1200-630.jpg"], ["url", "https://www.nbcnews.com/health/health-news/children-staff-georgia-overnight-camp-test-positive-coronavirus-cdc-says-n1235503"], ["created_at", "2020-07-31 23:59:31.885411"], ["updated_at", "2020-07-31 23:59:31.885411"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Antonio Brown suspended for 8 games for violating league's personal conduct policy - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2019/09/NFL-Antonio-Brown17.jpg"], ["url", "https://www.foxnews.com/sports/antonio-brown-suspended-8-games"], ["created_at", "2020-07-31 23:59:31.890645"], ["updated_at", "2020-07-31 23:59:31.890645"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Florida teenager facing 30 felony charges over Twitter hack | TheHill - The Hill"], ["image", "https://thehill.com/sites/default/files/twitterlogo_071019getty_0.jpg"], ["url", "https://thehill.com/policy/technology/510017-florida-teenager-facing-30-felony-charges-over-twitter-hack"], ["created_at", "2020-07-31 23:59:31.896585"], ["updated_at", "2020-07-31 23:59:31.896585"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Citing Election Delay Tweet, Influential Trump Ally Now Demands His Re-Impeachment - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/ap_20213664206566_wide-9651391699a24c9d62a0bff43cc4ea7e01eb97ea.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897724197/citing-election-delay-tweet-influential-trump-ally-now-demands-his-re-impeachmen"], ["created_at", "2020-07-31 23:59:31.901847"], ["updated_at", "2020-07-31 23:59:31.901847"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/0/5616/3744"], ["created_at", "2020-07-31 23:59:32.146092"], ["updated_at", "2020-07-31 23:59:32.146092"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1/5616/3744"], ["created_at", "2020-07-31 23:59:32.152235"], ["updated_at", "2020-07-31 23:59:32.152235"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/10/2500/1667"], ["created_at", "2020-07-31 23:59:32.180274"], ["updated_at", "2020-07-31 23:59:32.180274"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/100/2500/1656"], ["created_at", "2020-07-31 23:59:32.185157"], ["updated_at", "2020-07-31 23:59:32.185157"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1000/5626/3635"], ["created_at", "2020-07-31 23:59:32.191712"], ["updated_at", "2020-07-31 23:59:32.191712"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1001/5616/3744"], ["created_at", "2020-07-31 23:59:32.197188"], ["updated_at", "2020-07-31 23:59:32.197188"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1002/4312/2868"], ["created_at", "2020-07-31 23:59:32.202068"], ["updated_at", "2020-07-31 23:59:32.202068"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1003/1181/1772"], ["created_at", "2020-07-31 23:59:32.206863"], ["updated_at", "2020-07-31 23:59:32.206863"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1004/5616/3744"], ["created_at", "2020-07-31 23:59:32.212090"], ["updated_at", "2020-07-31 23:59:32.212090"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-07-31 23:59:32.217114"], ["updated_at", "2020-07-31 23:59:32.217114"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
