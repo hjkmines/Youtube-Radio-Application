@@ -24,26 +24,26 @@ fetch(news_url)
 
   })
 
-fetch(images_url)
-  .then(response => response.json())
-  .then(images => {
+// fetch(images_url)
+//   .then(response => response.json())
+//   .then(images => {
 
   
-    for (i=0; i < 1; i++) {
-      const $div = document.createElement("div")
-      $div.classList.add("carousel-item")
-      $div.classList.add("active")
-      $div.innerHTML = `<img class="d-block w-100 images" src="${images[i].url}" alt="First slide"></img>`
-      $imagesCarousel.append($div)
-    }
+//     for (i=0; i < 1; i++) {
+//       const $div = document.createElement("div")
+//       $div.classList.add("carousel-item")
+//       $div.classList.add("active")
+//       $div.innerHTML = `<img class="d-block w-100 images" src="${images[i].url}" alt="First slide"></img>`
+//       $imagesCarousel.append($div)
+//     }
   
-    for (i=1; i < 10; i++) {
-      const $div = document.createElement("div")
-      $div.classList.add("carousel-item")
-      $div.innerHTML = `<img class="d-block w-100 images" src="${images[i].url}" alt="First slide"></img>`
-      $imagesCarousel.append($div)
-    }
+//     for (i=1; i < 10; i++) {
+//       const $div = document.createElement("div")
+//       $div.classList.add("carousel-item")
+//       $div.innerHTML = `<img class="d-block w-100 images" src="${images[i].url}" alt="First slide"></img>`
+//       $imagesCarousel.append($div)
+//     }
 
-  })
+//   })
 
  
