@@ -4,7 +4,7 @@ body {
 
 form {
   margin: auto;
-  margin-top: 190px;
+  /* margin-top: 190px; */
   border: black;
   border-style: solid;
   border-radius: 15px;
@@ -23,6 +23,7 @@ h2 {
 
 #header {
   margin-top: 50px;
+  margin-bottom: 120px;
   color: white; 
 }
 
