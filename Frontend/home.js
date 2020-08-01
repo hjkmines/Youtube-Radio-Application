@@ -6,6 +6,8 @@ const $imagesCarousel = document.querySelector(".carousel-images")
 const $headLines = document.querySelector(".headlines")
 const $stockList = document.querySelector(".stock-list")
 
+const $newsRow = document.querySelector(".news-row")
+
 // const CLIENT_ID = '135244444205-94826goosl58aslig9rd6g6tf71phlej.apps.googleusercontent.com'; 
 // const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"];
 // const SCOPES = 'https://www.googleapis.com/auth/youtube.readonly'; 
@@ -45,6 +47,18 @@ fetch(newsUrl)
       const $li = document.createElement("li")
       $li.innerHTML = `<a id="headlines-linkers" href="${articles[i].url}"><strong>${articles[i].title}</strong></a>`
       $headLines.append($li)
+    }
+
+    for (i=16; i < 21; i++) {
+
+      const $div = document.createElement('div')
+      $div.classList.add('card')
+      $div.innerHTML = `<img class="card-img-top" src="${articles[i].image}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">${articles[i].title}</h5>
+        <a href="${articles[i].url}" class="btn btn-primary">Go to full article</a>
+      </div>`
+      $newsRow.append($div)
     }
 
   })

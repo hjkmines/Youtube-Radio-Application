@@ -11,7 +11,7 @@ Stock.destroy_all
 news_key = ENV["API_NEWS_KEY"]
 response = RestClient.get ("https://newsapi.org/v2/top-headlines?country=us&apiKey=#{news_key}")
 parsed_response = JSON.parse(response)
-top10 = parsed_response["articles"].take(20)
+top10 = parsed_response["articles"].take(30)
 
 top10.each do |article|
   Article.create(title: article["title"], image: article["urlToImage"], url: article["url"])

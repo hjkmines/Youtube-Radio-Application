@@ -28,6 +28,10 @@ li {
   
 }
 
+.card {
+  width: 18rem;
+}
+
 .arrow {
   margin-top: 500px;
   color: black;
