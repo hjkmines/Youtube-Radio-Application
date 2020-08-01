@@ -67,7 +67,7 @@ li {
 
 .headlines-container {
   margin-top: 18px;
-  margin-left: 4px;
+  margin-left: 35px;
   width: 400px; 
 }
 
@@ -92,6 +92,23 @@ li {
   margin-left: auto;
   margin-right: auto; 
   margin-top: 16px;
+}
+
+.main-videos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+
+.top-video {
+  margin-bottom: 30px;
+  border: white;
+  border-style: solid;
+}
+
+.bottom-video {
+  border: white;
+  border-style: solid;
 }
 
 #brand {
