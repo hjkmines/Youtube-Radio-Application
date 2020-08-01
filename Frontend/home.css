@@ -28,13 +28,22 @@ li {
   
 }
 
-.navbar {
-  align-items: center;
+.arrow {
+  margin-top: 500px;
+  color: black;
+}
+
+.left-arrow {
+  margin-left: 100px;
+}
+
+.right-arrow {
+  margin-right: 100px;
 }
 
 .articles {
   width: 788px; 
-  height: 410px; 
+  height: 400px; 
 }
 
 .images {
@@ -50,6 +59,10 @@ li {
 .nav-link {
   margin-left: 10px; 
   margin-right: 10px;
+}
+
+.navbar-nav {
+  height: 40px;
 }
 
 .headlines-container {
@@ -96,7 +109,8 @@ li {
 
 #news-slide {
   width: 700px;
-  margin-top: 20px;
+  margin-top: 45px;
+  height: 470px; 
   background-color: lightslategrey;
   border: black;
   margin-left: 46px;
