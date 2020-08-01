@@ -6,6 +6,16 @@ const $imagesCarousel = document.querySelector(".carousel-images")
 const $headLines = document.querySelector(".headlines")
 const $stockList = document.querySelector(".stock-list")
 
+const CLIENT_ID = '135244444205-94826goosl58aslig9rd6g6tf71phlej.apps.googleusercontent.com'; 
+const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"];
+const SCOPES = 'https://www.googleapis.com/auth/youtube.readonly'; 
+const authorizeButton = document.getElementById('authorize-button'); 
+const signoutButton = doucment.getElementById('signout-button');  
+
+
+
+
+
 fetch(newsUrl)
   .then(response => response.json())
   .then(articles => {
