@@ -2,8 +2,13 @@ body {
   background-image: url('/youtube_wall.png');
 }
 
-h1 {
-  font-size: 25px;
+li {
+  margin-bottom: 20px;
+  color: white;
+}
+
+#headlines-linkers {
+  color: whitesmoke;
 }
 
 #header {
@@ -21,6 +26,10 @@ h1 {
 .category {
   text-align: center;
   
+}
+
+.navbar {
+  align-items: center;
 }
 
 .articles {
@@ -41,6 +50,20 @@ h1 {
 .nav-link {
   margin-left: 10px; 
   margin-right: 10px;
+}
+
+.headlines-container {
+  margin-top: 18px;
+  margin-left: 4px;
+  width: 400px; 
+}
+
+.headlines-bar {
+  border-top: black;
+  border-top-style: solid;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 16px;
 }
 
 #brand {
@@ -72,11 +95,11 @@ h1 {
 }
 
 #news-slide {
-  width: 800px;
-  height: 500px; 
+  width: 700px;
   margin-top: 20px;
   background-color: lightslategrey;
   border: black;
+  margin-left: 46px;
   border-width: 6px;
   border-style: solid;
 }
@@ -90,6 +113,11 @@ h1 {
 
 #video-title {
   color: white;
+}
+
+h1.header {
+  margin-top: 20px;
+  font-size: 50px;
 }
 
 footer {

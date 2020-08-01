@@ -891,3 +891,778 @@ Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 220
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-07-31 23:59:32.217114"], ["updated_at", "2020-07-31 23:59:32.217114"]]
   [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/home.html?email=df&password=[FILTERED]" for ::1 at 2020-07-31 18:00:10 -0600
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/home.html"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2020-07-31 18:00:11 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/articles" for ::1 at 2020-07-31 18:00:39 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 116ms (Views: 89.3ms | ActiveRecord: 4.6ms | Allocations: 7743)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:01:17 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.9ms | Allocations: 2876)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:02:30 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.7ms | Allocations: 2891)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:05:31 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (4.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 45ms (Views: 32.1ms | ActiveRecord: 4.2ms | Allocations: 2893)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:06:38 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 33ms (Views: 25.5ms | ActiveRecord: 2.2ms | Allocations: 2893)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:06:45 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.7ms | Allocations: 2876)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:06:54 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 1.0ms | Allocations: 2876)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:09:23 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 37ms (Views: 25.3ms | ActiveRecord: 2.3ms | Allocations: 2876)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:09:37 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.8ms | Allocations: 2876)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:10:30 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 29ms (Views: 21.1ms | ActiveRecord: 1.7ms | Allocations: 2876)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:10:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 1.3ms | Allocations: 2876)
+
+
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 21]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 22]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 23]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 24]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 25]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 26]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 27]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 28]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 29]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 30]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 31]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 32]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 33]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 34]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 35]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 21]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 22]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 23]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 24]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 25]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (2.2ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 26]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.6ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 27]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 28]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 29]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.8ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 30]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Trump reboots TV ad strategy with focus on early-voting states - POLITICO"], ["image", "https://static.politico.com/32/ce/171c4c4945f49393a0ea065cc4be/190412-bill-stepien-ap-773.jpg"], ["url", "https://www.politico.com/news/2020/07/31/trump-tv-ad-strategy-early-voting-states-389845"], ["created_at", "2020-08-01 00:11:12.467606"], ["updated_at", "2020-08-01 00:11:12.467606"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "James Murdoch resigns from the board of News Corp, citing 'disagreements over certain editorial content' - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200731174228-james-murdoch-file-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/media/james-murdoch-resigns-news-corp/index.html"], ["created_at", "2020-08-01 00:11:12.474907"], ["updated_at", "2020-08-01 00:11:12.474907"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "'Ellen' Producer Faces Sexual Misconduct Allegations - Inside Edition"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ODZ5ZDJoR2VqZEXSAQA?oc=5"], ["created_at", "2020-08-01 00:11:12.480942"], ["updated_at", "2020-08-01 00:11:12.480942"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Beyonce offers rare glimpse of twins Sir and Rumi, three, in visual album Black Is King - Daily Mail"], ["image", "https://i.dailymail.co.uk/1s/2020/07/31/22/31428996-0-image-a-144_1596230091277.jpg"], ["url", "https://www.dailymail.co.uk/tvshowbiz/article-8581953/Beyonce-offers-rare-glimpse-twins-Sir-Rumi-three-visual-album-Black-King.html"], ["created_at", "2020-08-01 00:11:12.489288"], ["updated_at", "2020-08-01 00:11:12.489288"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Despite Historic Plunge, Europe’s Economy Flashes Signs of Recovery - The New York Times"], ["image", "https://static01.nyt.com/images/2020/07/31/business/31eu-econ-promo/31eu-econ-promo-facebookJumbo.jpg"], ["url", "https://www.nytimes.com/2020/07/31/business/europe-economy-recovery-coronavirus.html"], ["created_at", "2020-08-01 00:11:12.494557"], ["updated_at", "2020-08-01 00:11:12.494557"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Sources - MLB commissioner warns of shutdown if coronavirus isn't better managed - ESPN"], ["image", "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0731%2Fr726058_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/mlb/story/_/id/29572885/sources-mlb-commissioner-warns-shutdown-players-do-better-job-managing-coronavirus"], ["created_at", "2020-08-01 00:11:12.516171"], ["updated_at", "2020-08-01 00:11:12.516171"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "WHO reports record daily rise in global coronavirus cases: Live - Al Jazeera English"], ["image", "https://www.aljazeera.com/mritems/Images/2020/7/30/a1da1a9453a2410a9d98ac93c69ab79b_18.jpg"], ["url", "https://www.aljazeera.com/news/2020/07/vietnam-reports-record-jump-coronavirus-cases-live-updates-200730235247008.html"], ["created_at", "2020-08-01 00:11:12.521344"], ["updated_at", "2020-08-01 00:11:12.521344"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "California Coronavirus Update: First Teen Death From Virus Confirmed In State As Death Toll Passes 9,000 - Deadline"], ["image", "https://pmcdeadline2.files.wordpress.com/2020/07/ap_20194054060948.jpg?w=1024"], ["url", "https://deadline.com/2020/07/california-coronavirus-first-teen-death-confirmed-1203001018/"], ["created_at", "2020-08-01 00:11:12.528188"], ["updated_at", "2020-08-01 00:11:12.528188"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Federal appeals court tosses Tsarnaev death sentence, orders new penalty-phase trial - The Boston Globe"], ["image", "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/ngU8T8n9d11C2Chpb3V3EePM2rc=/506x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/L76BE3AH6AI6VNN5FKKTEK257Y.jpg"], ["url", "https://www.bostonglobe.com/2020/07/31/metro/federal-appeals-court-tosses-tsarnaev-death-sentence-orders-new-penalty-phase-trial/"], ["created_at", "2020-08-01 00:11:12.533367"], ["updated_at", "2020-08-01 00:11:12.533367"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fitch Revises United States' Outlook to Negative; Affirms at AAA - Fitch Ratings"], ["url", "https://www.fitchratings.com/research/sovereigns/fitch-revises-united-states-outlook-to-negative-affirms-at-aaa-31-07-2020"], ["created_at", "2020-08-01 00:11:12.539710"], ["updated_at", "2020-08-01 00:11:12.539710"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Alan Parker, ‘Bugsy Malone,’ ‘Midnight Express’ director, dead at 76 - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/07/Alan-Parker_Getty.jpg"], ["url", "https://www.foxnews.com/entertainment/alan-parker-bugsy-malone-midnight-express-director-dead-at-76"], ["created_at", "2020-08-01 00:11:12.545037"], ["updated_at", "2020-08-01 00:11:12.545037"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Children and staff at Georgia overnight camp test positive for coronavirus, CDC says - NBC News"], ["image", "https://media2.s-nbcnews.com/j/newscms/2020_31/3401314/200731-georgia-coronavirus-testing-ac-231p_611ec294d7d9492c81363f627d2a9634.nbcnews-fp-1200-630.jpg"], ["url", "https://www.nbcnews.com/health/health-news/children-staff-georgia-overnight-camp-test-positive-coronavirus-cdc-says-n1235503"], ["created_at", "2020-08-01 00:11:12.550611"], ["updated_at", "2020-08-01 00:11:12.550611"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Antonio Brown suspended for 8 games for violating league's personal conduct policy - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2019/09/NFL-Antonio-Brown17.jpg"], ["url", "https://www.foxnews.com/sports/antonio-brown-suspended-8-games"], ["created_at", "2020-08-01 00:11:12.555516"], ["updated_at", "2020-08-01 00:11:12.555516"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Florida teenager facing 30 felony charges over Twitter hack | TheHill - The Hill"], ["image", "https://thehill.com/sites/default/files/twitterlogo_071019getty_0.jpg"], ["url", "https://thehill.com/policy/technology/510017-florida-teenager-facing-30-felony-charges-over-twitter-hack"], ["created_at", "2020-08-01 00:11:12.560818"], ["updated_at", "2020-08-01 00:11:12.560818"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Citing Election Delay Tweet, Influential Trump Ally Now Demands His Re-Impeachment - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/ap_20213664206566_wide-9651391699a24c9d62a0bff43cc4ea7e01eb97ea.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897724197/citing-election-delay-tweet-influential-trump-ally-now-demands-his-re-impeachmen"], ["created_at", "2020-08-01 00:11:12.565454"], ["updated_at", "2020-08-01 00:11:12.565454"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Satellite survey shows California's sinking coastal hotspots - Phys.org"], ["image", "https://scx2.b-cdn.net/gfx/news/2020/satellitesur.jpg"], ["url", "https://phys.org/news/2020-07-satellite-survey-california-coastal-hotspots.html"], ["created_at", "2020-08-01 00:11:12.570094"], ["updated_at", "2020-08-01 00:11:12.570094"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "NASA astronauts set to ride a SpaceX Crew Dragon back to Earth for the 1st time this weekend - Space.com"], ["image", "https://cdn.mos.cms.futurecdn.net/VGauS9LYKRFpVinNWvVVMA-1200-80.png"], ["url", "https://www.space.com/spacex-crew-dragon-astronauts-demo2-return-soon.html"], ["created_at", "2020-08-01 00:11:12.575468"], ["updated_at", "2020-08-01 00:11:12.575468"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Human sperm roll like 'playful otters' as they swim, study finds, contradicting centuries-old beliefs - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200731130539-human-sperm-stock-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/health/sperm-swimming-movement-wellness/index.html"], ["created_at", "2020-08-01 00:11:12.581292"], ["updated_at", "2020-08-01 00:11:12.581292"]]
+  [1m[35m (10.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Australian coronavirus vaccine clears first phase of human trials - New York Post "], ["image", "https://nypost.com/wp-content/uploads/sites/2/2020/07/covid-vaccine-3.jpg?quality=90&strip=all&w=1200"], ["url", "https://nypost.com/2020/07/31/australian-coronavirus-vaccine-clears-first-phase-of-human-trials/"], ["created_at", "2020-08-01 00:11:12.600947"], ["updated_at", "2020-08-01 00:11:12.600947"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Cardinals-Brewers game postponed after two St. Louis players test positive for COVID-19 - CBS Sports"], ["image", "https://sportshub.cbsistatic.com/i/r/2020/07/31/b7d5e356-f626-4dd7-b899-f6303b4a1901/thumbnail/1200x675/6d40ad6e918d0e72eac9946af8b2023d/st-louis-cardinals.jpg"], ["url", "https://www.cbssports.com/mlb/news/cardinals-brewers-game-postponed-after-two-st-louis-players-test-positive-for-covid-19/"], ["created_at", "2020-08-01 00:11:12.612096"], ["updated_at", "2020-08-01 00:11:12.612096"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (1.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/0/5616/3744"], ["created_at", "2020-08-01 00:11:13.395909"], ["updated_at", "2020-08-01 00:11:13.395909"]]
+  [1m[35m (31.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1/5616/3744"], ["created_at", "2020-08-01 00:11:13.442395"], ["updated_at", "2020-08-01 00:11:13.442395"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/10/2500/1667"], ["created_at", "2020-08-01 00:11:13.447585"], ["updated_at", "2020-08-01 00:11:13.447585"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/100/2500/1656"], ["created_at", "2020-08-01 00:11:13.454096"], ["updated_at", "2020-08-01 00:11:13.454096"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1000/5626/3635"], ["created_at", "2020-08-01 00:11:13.459428"], ["updated_at", "2020-08-01 00:11:13.459428"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1001/5616/3744"], ["created_at", "2020-08-01 00:11:13.464674"], ["updated_at", "2020-08-01 00:11:13.464674"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1002/4312/2868"], ["created_at", "2020-08-01 00:11:13.469813"], ["updated_at", "2020-08-01 00:11:13.469813"]]
+  [1m[35m (26.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1003/1181/1772"], ["created_at", "2020-08-01 00:11:13.500950"], ["updated_at", "2020-08-01 00:11:13.500950"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.8ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1004/5616/3744"], ["created_at", "2020-08-01 00:11:13.506765"], ["updated_at", "2020-08-01 00:11:13.506765"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-08-01 00:11:13.513486"], ["updated_at", "2020-08-01 00:11:13.513486"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-07-31 18:11:36 -0600
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (4.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 58ms (Views: 45.7ms | ActiveRecord: 7.7ms | Allocations: 8365)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:12:06 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 104ms (Views: 99.8ms | ActiveRecord: 1.3ms | Allocations: 3600)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:13:17 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (3.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 221ms (Views: 210.4ms | ActiveRecord: 3.2ms | Allocations: 3599)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:15:28 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 55ms (Views: 49.7ms | ActiveRecord: 1.8ms | Allocations: 3599)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:15:50 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (8.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 217ms (Views: 207.6ms | ActiveRecord: 8.4ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:16:06 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (5.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 281ms (Views: 268.9ms | ActiveRecord: 5.0ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:16:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:16:58 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 1.0ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:17:26 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 46ms (Views: 35.4ms | ActiveRecord: 1.5ms | Allocations: 3599)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:17:37 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:17:59 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 51ms (Views: 44.0ms | ActiveRecord: 1.2ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:18:04 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:18:34 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.4ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:19:08 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 1.3ms | Allocations: 3583)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:19:22 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:19:41 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:20:15 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 110ms (Views: 98.8ms | ActiveRecord: 2.4ms | Allocations: 3583)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:21:35 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 31ms (Views: 25.8ms | ActiveRecord: 1.2ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:22:31 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 41ms (Views: 34.4ms | ActiveRecord: 1.2ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:22:47 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 1.1ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:23:07 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.8ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:23:50 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:24:03 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 1.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:24:16 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 66ms (Views: 59.2ms | ActiveRecord: 1.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:24:30 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.9ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:25:08 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 186ms (Views: 159.0ms | ActiveRecord: 2.7ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:25:20 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:25:37 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.9ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:25:47 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.6ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:25:58 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.7ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:26:07 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.5ms | Allocations: 3583)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:26:23 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (3.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 41ms (Views: 28.5ms | ActiveRecord: 3.9ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:26:43 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:26:52 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:27:12 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 1.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:27:24 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.6ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:27:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 1.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:27:52 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.7ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:28:03 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:28:14 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 163ms (Views: 161.1ms | ActiveRecord: 1.3ms | Allocations: 3585)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:28:32 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:28:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:28:40 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.8ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:28:55 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.6ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:29:00 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.6ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:29:13 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 99ms (Views: 89.4ms | ActiveRecord: 1.9ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:29:40 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:30:05 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:30:17 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.7ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:30:31 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.7ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:30:35 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.4ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:30:44 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:31:13 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:31:23 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.6ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:31:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 1.1ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:31:45 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:32:15 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:32:38 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 55ms (Views: 47.8ms | ActiveRecord: 1.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:32:45 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.5ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:34:56 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 35ms (Views: 27.7ms | ActiveRecord: 1.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:35:07 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:35:13 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.6ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:35:54 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:36:04 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 36ms (Views: 25.9ms | ActiveRecord: 1.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:36:26 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.5ms | Allocations: 3585)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:36:34 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 3582)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 18:39:24 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 36ms (Views: 27.1ms | ActiveRecord: 2.2ms | Allocations: 3582)
+
+
