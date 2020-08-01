@@ -49,7 +49,7 @@ fetch(newsUrl)
       $headLines.append($li)
     }
 
-    for (i=16; i < 21; i++) {
+    for (i=10; i < 15; i++) {
 
       const $div = document.createElement('div')
       $div.classList.add('card')
