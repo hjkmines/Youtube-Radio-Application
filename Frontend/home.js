@@ -1,10 +1,12 @@
-const news_url = "http://localhost:3000/articles"
-const images_url = "http://localhost:3000/images"
+const newsUrl = "http://localhost:3000/articles"
+const imagesUrl = "http://localhost:3000/images"
+const stocksUrl = "http://localhost:3000/stocks"
 const $newsCarousel = document.querySelector(".carousel-news")
 const $imagesCarousel = document.querySelector(".carousel-images")
-const $headlines = document.querySelector(".headlines")
+const $headLines = document.querySelector(".headlines")
+const $stockList = document.querySelector(".stock-list")
 
-fetch(news_url)
+fetch(newsUrl)
   .then(response => response.json())
   .then(articles => {
 
@@ -26,18 +28,28 @@ fetch(news_url)
     for (i=10; i < 15; i++) {
       const $li = document.createElement("li")
       $li.innerHTML = `<a id="headlines-linkers" href="${articles[i].url}"><strong>${articles[i].title}</strong></a><div class="headlines-bar"></div>`
-      $headlines.append($li)
+      $headLines.append($li)
     }
 
     for (i=15; i < 16; i++) {
       const $li = document.createElement("li")
       $li.innerHTML = `<a id="headlines-linkers" href="${articles[i].url}"><strong>${articles[i].title}</strong></a>`
-      $headlines.append($li)
+      $headLines.append($li)
     }
 
   })
 
-// fetch(images_url)
+  fetch(stocksUrl)
+    .then(response => response.json())
+    .then(stocks => {
+      stocks.forEach(stock => {
+        const $li = document.createElement("li")
+        $li.innerHTML = `${stock.name}: ${stock.ticker}, $${stock.current_price}`
+        $stockList.append($li)
+      })
+    })
+
+// fetch(imagesUrl)
 //   .then(response => response.json())
 //   .then(images => {
 

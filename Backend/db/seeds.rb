@@ -38,7 +38,10 @@ random_stock = stocks_with_symbols.sample
 #fetches realtime quote of target company 
 quote = RestClient.get "https://finnhub.io/api/v1/quote?symbol=#{random_stock[1]}&token=#{stock_key}"
 parsed_quotes = JSON.parse(quote)
-stock_and_current_price = random_stock.push(parsed_quotes["c"].to_f, parsed_quotes["l"].to_f, parsed_quotes["h"].to_f)
+stock_and_price = random_stock.push(parsed_quotes["c"].to_f, parsed_quotes["l"].to_f, parsed_quotes["h"].to_f)
+
+Stock.create(name: stock_and_price[0], ticker: stock_and_price[1], current_price: stock_and_price[2], low: stock_and_price[3], high: stock_and_price[4])
+
 end 
 
 
