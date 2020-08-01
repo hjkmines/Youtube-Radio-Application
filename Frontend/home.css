@@ -71,6 +71,21 @@ li {
   width: 400px; 
 }
 
+.stock {
+  display: inline;
+  font-size: 20px;
+}
+
+.stock-bar {
+  margin-top: 65px; 
+  height: 35px;
+}
+
+.stock-list {
+  display: flex;
+  justify-content: space-around;
+}
+
 .headlines-bar {
   border-top: black;
   border-top-style: solid;
@@ -102,7 +117,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 75px;
+  margin-top: 10px;
   margin-bottom: 0;
   color: white;
 }
@@ -130,7 +145,6 @@ li {
 }
 
 h1.header {
-  margin-top: 20px;
   font-size: 50px;
 }
 

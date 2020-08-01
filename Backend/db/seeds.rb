@@ -5,6 +5,7 @@ require 'dotenv/load'
 User.destroy_all 
 Article.destroy_all
 Image.destroy_all 
+Stock.destroy_all 
 
 # API call to news-api
 news_key = ENV["API_NEWS_KEY"]
@@ -18,7 +19,7 @@ end
 
 # API call to stock-api 
 #api data for company stock symbols 
-7.times do 
+15.times do 
 stock_key = ENV["API_STOCK_KEY"]
 stock_symbols = RestClient.get "https://finnhub.io/api/v1/stock/symbol?exchange=US&token=#{stock_key}"
 #parsed data for stock symbols 

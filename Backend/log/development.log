@@ -3211,3 +3211,1710 @@ Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.8ms | Allocations: 244
 Completed 200 OK in 62ms (Views: 53.6ms | ActiveRecord: 2.2ms | Allocations: 5447)
 
 
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 176]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 177]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 178]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 179]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 180]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 181]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 182]]
+  [1m[35m (10.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 183]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 184]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 185]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 186]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 187]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 188]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 189]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 190]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 191]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 192]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.0ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 193]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 194]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 195]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (1.2ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 81]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.9ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 82]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 83]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 84]]
+  [1m[35m (10.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 85]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 86]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 87]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 88]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.6ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 89]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 90]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "NASA Astronauts Robert Behnken and Douglas Hurley Are Coming Home! - NASA"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SjNWdUxLRm52bFHSAQA?oc=5"], ["created_at", "2020-08-01 01:34:10.123515"], ["updated_at", "2020-08-01 01:34:10.123515"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Harris allies granted call with Biden campaign after Dodd blowup - POLITICO"], ["image", "https://static.politico.com/7b/30/87e5677e43f4927267f3fd547d2e/191127-kamala-harris-ap-773.jpg"], ["url", "https://www.politico.com/news/2020/07/31/harris-allies-biden-call-dodd-389848"], ["created_at", "2020-08-01 01:34:10.132988"], ["updated_at", "2020-08-01 01:34:10.132988"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Ellen DeGeneres' show in turmoil after allegations of sexual harassment, racism and a toxic work … - CBS Evening News"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9U2NrdDUxSWl0UmPSAQA?oc=5"], ["created_at", "2020-08-01 01:34:10.151994"], ["updated_at", "2020-08-01 01:34:10.151994"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "6 Death Sentences Thrown Out For Boston Marathon Bomber - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/gettyimages-1219954375_wide-866a7105f342c6b5e28a68be7a33cf6042ae9ffe.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897932367/appeals-court-tosses-out-death-sentence-for-boston-marathon-bomber"], ["created_at", "2020-08-01 01:34:10.160715"], ["updated_at", "2020-08-01 01:34:10.160715"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Why Apple Stock Soared to a New All-Time High Today - Motley Fool"], ["image", "https://g.foolcdn.com/editorial/images/585276/growth-gettyimages-937862440.jpg"], ["url", "https://www.fool.com/investing/2020/07/31/why-apple-stock-soared-to-a-new-all-time-high-toda.aspx"], ["created_at", "2020-08-01 01:34:10.169537"], ["updated_at", "2020-08-01 01:34:10.169537"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Supreme Court allows continued construction of Trump's border wall - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/191122144021-02-trump-wall-file-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/politics/supreme-court-border-wall/index.html"], ["created_at", "2020-08-01 01:34:10.174587"], ["updated_at", "2020-08-01 01:34:10.174587"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "5 p.m. Friday: Hurricane warnings issued for parts of Florida's east coast ahead of Isaias - 10 Tampa Bay"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UUZxbXhIMVNFVGPSAQA?oc=5"], ["created_at", "2020-08-01 01:34:10.181886"], ["updated_at", "2020-08-01 01:34:10.181886"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "James Murdoch resigns from News Corp., citing editorial differences - NBC News"], ["image", "https://media2.s-nbcnews.com/j/newscms/2020_31/3401381/200731-james-murdoch-se-536p_b8186d810d3e976ab08d7ed5ab3266ac.nbcnews-fp-1200-630.jpg"], ["url", "https://www.nbcnews.com/business/business-news/james-murdoch-resigns-news-corp-citing-editorial-differences-n1235545"], ["created_at", "2020-08-01 01:34:10.188042"], ["updated_at", "2020-08-01 01:34:10.188042"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Astronauts SpaceX Crew Dragon Capsule Are Returning To Earth - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/dm2_crew_cassidy_iss_wide-566910b4fa41a32e2c1ad97b81167a822c8d2134.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897870610/astronauts-set-to-return-to-earth-in-first-u-s-splashdown-in-decades"], ["created_at", "2020-08-01 01:34:10.195745"], ["updated_at", "2020-08-01 01:34:10.195745"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Beyonce offers rare glimpse of twins Sir and Rumi, three, in visual album Black Is King - Daily Mail"], ["image", "https://i.dailymail.co.uk/1s/2020/07/31/22/31428996-0-image-a-144_1596230091277.jpg"], ["url", "https://www.dailymail.co.uk/tvshowbiz/article-8581953/Beyonce-offers-rare-glimpse-twins-Sir-Rumi-three-visual-album-Black-King.html"], ["created_at", "2020-08-01 01:34:10.204286"], ["updated_at", "2020-08-01 01:34:10.204286"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "McConnell signal to Republican Senate candidates: Distance from Trump if necessary - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200630104649-01-mcconnell-mask-0511-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/politics/senate-mcconnell-trump-firewall/index.html"], ["created_at", "2020-08-01 01:34:10.210118"], ["updated_at", "2020-08-01 01:34:10.210118"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Despite Historic Plunge, Europe’s Economy Flashes Signs of Recovery - The New York Times"], ["image", "https://static01.nyt.com/images/2020/07/31/business/31eu-econ-promo/31eu-econ-promo-facebookJumbo.jpg"], ["url", "https://www.nytimes.com/2020/07/31/business/europe-economy-recovery-coronavirus.html"], ["created_at", "2020-08-01 01:34:10.216193"], ["updated_at", "2020-08-01 01:34:10.216193"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bill Belichick - Cam Newton will have to win Patriots' starting QB job - ESPN"], ["image", "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0710%2Fr717626_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/nfl/story/_/id/29572970/bill-belichick-cam-newton-win-patriots-starting-qb-job"], ["created_at", "2020-08-01 01:34:10.221625"], ["updated_at", "2020-08-01 01:34:10.221625"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "California reports its first teen death related to coronavirus - Los Angeles Times"], ["image", "https://ca-times.brightspotcdn.com/dims4/default/5e16d1c/2147483647/strip/true/crop/2100x1103+0+342/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc3%2Fe6%2F90d5817a4bdbbc72bef1523c9137%2F49666286236-30d05cefb2-o.jpg"], ["url", "https://www.latimes.com/california/story/2020-07-31/california-reports-first-teen-death-related-from-coronavirus"], ["created_at", "2020-08-01 01:34:10.227682"], ["updated_at", "2020-08-01 01:34:10.227682"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Sources - MLB commissioner warns of shutdown if coronavirus isn't better managed - ESPN"], ["image", "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0731%2Fr726058_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/mlb/story/_/id/29572885/sources-mlb-commissioner-warns-shutdown-players-do-better-job-managing-coronavirus"], ["created_at", "2020-08-01 01:34:10.233265"], ["updated_at", "2020-08-01 01:34:10.233265"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Jessica Biel and Justin Timberlake Welcome Baby No. 2: Relive Their Sweetest Family Moments - E! NEWS"], ["image", "https://akns-images.eonline.com/eol_images/Entire_Site/201835/rs_600x600-180405131008-600-baby-silas-justin-timberlake-jessica-biel.jpg?fit=around|1080:1080&output-quality=90&crop=1080:1080;center,top"], ["url", "https://www.eonline.com/news/1171856/jessica-biel-and-justin-timberlake-welcome-baby-no-2-relive-their-sweetest-family-moments"], ["created_at", "2020-08-01 01:34:10.238352"], ["updated_at", "2020-08-01 01:34:10.238352"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fitch Revises United States' Outlook to Negative; Affirms at AAA - Fitch Ratings"], ["url", "https://www.fitchratings.com/research/sovereigns/fitch-revises-united-states-outlook-to-negative-affirms-at-aaa-31-07-2020"], ["created_at", "2020-08-01 01:34:10.246691"], ["updated_at", "2020-08-01 01:34:10.246691"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Google is about to fix the most annoying thing about Chromebooks - Android Central"], ["image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixelbook-go-review-1.jpg"], ["url", "https://www.androidcentral.com/google-details-how-windows-apps-will-run-your-chromebook"], ["created_at", "2020-08-01 01:34:10.252687"], ["updated_at", "2020-08-01 01:34:10.252687"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "A Google Pixel 5a is Coming! - Droid Life"], ["image", "https://www.droid-life.com/wp-content/uploads/2020/01/Pixel-3a-1-600x315-cropped.jpg"], ["url", "https://www.droid-life.com/2020/07/31/first-mention-of-google-pixel-5a-showed-up-today/"], ["created_at", "2020-08-01 01:34:10.259078"], ["updated_at", "2020-08-01 01:34:10.259078"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Another $1,200 stimulus check won't make up for loss of the $600 enhanced unemployment insurance - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106642861-1596217639001-gettyimages-1227844068-_da23033.jpeg?v=1596217927"], ["url", "https://www.cnbc.com/2020/07/31/another-stimulus-check-wont-make-up-for-loss-of-enhanced-unemployment-insurance.html"], ["created_at", "2020-08-01 01:34:10.265108"], ["updated_at", "2020-08-01 01:34:10.265108"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "PROSHARES ULTRA FTSE EUROPE"], ["ticker", "UPV"], ["current_price", 39], ["low", 39], ["high", 39], ["created_at", "2020-08-01 01:34:11.468216"], ["updated_at", "2020-08-01 01:34:11.468216"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "FIDELITY NATIONAL INFO SERV"], ["ticker", "FIS"], ["current_price", 146], ["low", 144], ["high", 146], ["created_at", "2020-08-01 01:34:12.130222"], ["updated_at", "2020-08-01 01:34:12.130222"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (1.4ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "PROSHARES ULTSHRT UTILITIES"], ["ticker", "SDP"], ["current_price", 10], ["low", 10], ["high", 10], ["created_at", "2020-08-01 01:34:13.289279"], ["updated_at", "2020-08-01 01:34:13.289279"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "PERMROCK ROYALTY TRUST"], ["ticker", "PRT"], ["current_price", 2], ["low", 2], ["high", 2], ["created_at", "2020-08-01 01:34:13.995673"], ["updated_at", "2020-08-01 01:34:13.995673"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (1.2ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "PROSHARES ULTRA MSCI JAPAN"], ["ticker", "EZJ"], ["current_price", 30], ["low", 30], ["high", 30], ["created_at", "2020-08-01 01:34:14.693497"], ["updated_at", "2020-08-01 01:34:14.693497"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SCYNEXIS INC"], ["ticker", "SCYX"], ["current_price", 6], ["low", 6], ["high", 6], ["created_at", "2020-08-01 01:34:15.340744"], ["updated_at", "2020-08-01 01:34:15.340744"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SIBANYE-STILLWATER LTD-ADR"], ["ticker", "SBSW"], ["current_price", 11], ["low", 11], ["high", 11], ["created_at", "2020-08-01 01:34:16.067389"], ["updated_at", "2020-08-01 01:34:16.067389"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/0/5616/3744"], ["created_at", "2020-08-01 01:34:16.708436"], ["updated_at", "2020-08-01 01:34:16.708436"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1/5616/3744"], ["created_at", "2020-08-01 01:34:16.715410"], ["updated_at", "2020-08-01 01:34:16.715410"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/10/2500/1667"], ["created_at", "2020-08-01 01:34:16.720107"], ["updated_at", "2020-08-01 01:34:16.720107"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/100/2500/1656"], ["created_at", "2020-08-01 01:34:16.726106"], ["updated_at", "2020-08-01 01:34:16.726106"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.8ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1000/5626/3635"], ["created_at", "2020-08-01 01:34:16.732082"], ["updated_at", "2020-08-01 01:34:16.732082"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1001/5616/3744"], ["created_at", "2020-08-01 01:34:16.738783"], ["updated_at", "2020-08-01 01:34:16.738783"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1002/4312/2868"], ["created_at", "2020-08-01 01:34:16.743705"], ["updated_at", "2020-08-01 01:34:16.743705"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1003/1181/1772"], ["created_at", "2020-08-01 01:34:16.749909"], ["updated_at", "2020-08-01 01:34:16.749909"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1004/5616/3744"], ["created_at", "2020-08-01 01:34:16.755652"], ["updated_at", "2020-08-01 01:34:16.755652"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-08-01 01:34:16.761474"], ["updated_at", "2020-08-01 01:34:16.761474"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/stocks" for ::1 at 2020-07-31 19:34:27 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:34:27 -0600
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as */*
+Processing by StocksController#index as */*
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  [1m[36mStock Load (0.6ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Completed 200 OK in 37ms (Views: 28.7ms | ActiveRecord: 4.4ms | Allocations: 8786)
+
+
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 66ms (Views: 60.9ms | ActiveRecord: 2.0ms | Allocations: 16379)
+
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 196]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 197]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 198]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 199]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 200]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 201]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 202]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 203]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 204]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 205]]
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 206]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 207]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 208]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 209]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 210]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 211]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 212]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 213]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 214]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 215]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 91]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 92]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 93]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.6ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 94]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 95]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 96]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.7ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 97]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 98]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.8ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 99]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 100]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mStock Load (0.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.7ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (1.0ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.6ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 5]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.6ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 7]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 8]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 9]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (1.0ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 10]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 11]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 12]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.7ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 13]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 14]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "NASA Astronauts Robert Behnken and Douglas Hurley Are Coming Home! - NASA"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SjNWdUxLRm52bFHSAQA?oc=5"], ["created_at", "2020-08-01 01:35:18.186379"], ["updated_at", "2020-08-01 01:35:18.186379"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Harris allies granted call with Biden campaign after Dodd blowup - POLITICO"], ["image", "https://static.politico.com/7b/30/87e5677e43f4927267f3fd547d2e/191127-kamala-harris-ap-773.jpg"], ["url", "https://www.politico.com/news/2020/07/31/harris-allies-biden-call-dodd-389848"], ["created_at", "2020-08-01 01:35:18.193138"], ["updated_at", "2020-08-01 01:35:18.193138"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Ellen DeGeneres' show in turmoil after allegations of sexual harassment, racism and a toxic work … - CBS Evening News"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9U2NrdDUxSWl0UmPSAQA?oc=5"], ["created_at", "2020-08-01 01:35:18.202000"], ["updated_at", "2020-08-01 01:35:18.202000"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "6 Death Sentences Thrown Out For Boston Marathon Bomber - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/gettyimages-1219954375_wide-866a7105f342c6b5e28a68be7a33cf6042ae9ffe.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897932367/appeals-court-tosses-out-death-sentence-for-boston-marathon-bomber"], ["created_at", "2020-08-01 01:35:18.209296"], ["updated_at", "2020-08-01 01:35:18.209296"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Why Apple Stock Soared to a New All-Time High Today - Motley Fool"], ["image", "https://g.foolcdn.com/editorial/images/585276/growth-gettyimages-937862440.jpg"], ["url", "https://www.fool.com/investing/2020/07/31/why-apple-stock-soared-to-a-new-all-time-high-toda.aspx"], ["created_at", "2020-08-01 01:35:18.216215"], ["updated_at", "2020-08-01 01:35:18.216215"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Supreme Court allows continued construction of Trump's border wall - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/191122144021-02-trump-wall-file-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/politics/supreme-court-border-wall/index.html"], ["created_at", "2020-08-01 01:35:18.223171"], ["updated_at", "2020-08-01 01:35:18.223171"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "5 p.m. Friday: Hurricane warnings issued for parts of Florida's east coast ahead of Isaias - 10 Tampa Bay"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UUZxbXhIMVNFVGPSAQA?oc=5"], ["created_at", "2020-08-01 01:35:18.229000"], ["updated_at", "2020-08-01 01:35:18.229000"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "James Murdoch resigns from News Corp., citing editorial differences - NBC News"], ["image", "https://media2.s-nbcnews.com/j/newscms/2020_31/3401381/200731-james-murdoch-se-536p_b8186d810d3e976ab08d7ed5ab3266ac.nbcnews-fp-1200-630.jpg"], ["url", "https://www.nbcnews.com/business/business-news/james-murdoch-resigns-news-corp-citing-editorial-differences-n1235545"], ["created_at", "2020-08-01 01:35:18.251787"], ["updated_at", "2020-08-01 01:35:18.251787"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Astronauts SpaceX Crew Dragon Capsule Are Returning To Earth - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/dm2_crew_cassidy_iss_wide-566910b4fa41a32e2c1ad97b81167a822c8d2134.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897870610/astronauts-set-to-return-to-earth-in-first-u-s-splashdown-in-decades"], ["created_at", "2020-08-01 01:35:18.257029"], ["updated_at", "2020-08-01 01:35:18.257029"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Beyonce offers rare glimpse of twins Sir and Rumi, three, in visual album Black Is King - Daily Mail"], ["image", "https://i.dailymail.co.uk/1s/2020/07/31/22/31428996-0-image-a-144_1596230091277.jpg"], ["url", "https://www.dailymail.co.uk/tvshowbiz/article-8581953/Beyonce-offers-rare-glimpse-twins-Sir-Rumi-three-visual-album-Black-King.html"], ["created_at", "2020-08-01 01:35:18.262227"], ["updated_at", "2020-08-01 01:35:18.262227"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "McConnell signal to Republican Senate candidates: Distance from Trump if necessary - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200630104649-01-mcconnell-mask-0511-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/politics/senate-mcconnell-trump-firewall/index.html"], ["created_at", "2020-08-01 01:35:18.267790"], ["updated_at", "2020-08-01 01:35:18.267790"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Despite Historic Plunge, Europe’s Economy Flashes Signs of Recovery - The New York Times"], ["image", "https://static01.nyt.com/images/2020/07/31/business/31eu-econ-promo/31eu-econ-promo-facebookJumbo.jpg"], ["url", "https://www.nytimes.com/2020/07/31/business/europe-economy-recovery-coronavirus.html"], ["created_at", "2020-08-01 01:35:18.273780"], ["updated_at", "2020-08-01 01:35:18.273780"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bill Belichick - Cam Newton will have to win Patriots' starting QB job - ESPN"], ["image", "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0710%2Fr717626_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/nfl/story/_/id/29572970/bill-belichick-cam-newton-win-patriots-starting-qb-job"], ["created_at", "2020-08-01 01:35:18.279051"], ["updated_at", "2020-08-01 01:35:18.279051"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "California reports its first teen death related to coronavirus - Los Angeles Times"], ["image", "https://ca-times.brightspotcdn.com/dims4/default/5e16d1c/2147483647/strip/true/crop/2100x1103+0+342/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc3%2Fe6%2F90d5817a4bdbbc72bef1523c9137%2F49666286236-30d05cefb2-o.jpg"], ["url", "https://www.latimes.com/california/story/2020-07-31/california-reports-first-teen-death-related-from-coronavirus"], ["created_at", "2020-08-01 01:35:18.284977"], ["updated_at", "2020-08-01 01:35:18.284977"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Sources - MLB commissioner warns of shutdown if coronavirus isn't better managed - ESPN"], ["image", "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0731%2Fr726058_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/mlb/story/_/id/29572885/sources-mlb-commissioner-warns-shutdown-players-do-better-job-managing-coronavirus"], ["created_at", "2020-08-01 01:35:18.292601"], ["updated_at", "2020-08-01 01:35:18.292601"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Jessica Biel and Justin Timberlake Welcome Baby No. 2: Relive Their Sweetest Family Moments - E! NEWS"], ["image", "https://akns-images.eonline.com/eol_images/Entire_Site/201835/rs_600x600-180405131008-600-baby-silas-justin-timberlake-jessica-biel.jpg?fit=around|1080:1080&output-quality=90&crop=1080:1080;center,top"], ["url", "https://www.eonline.com/news/1171856/jessica-biel-and-justin-timberlake-welcome-baby-no-2-relive-their-sweetest-family-moments"], ["created_at", "2020-08-01 01:35:18.299220"], ["updated_at", "2020-08-01 01:35:18.299220"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fitch Revises United States' Outlook to Negative; Affirms at AAA - Fitch Ratings"], ["url", "https://www.fitchratings.com/research/sovereigns/fitch-revises-united-states-outlook-to-negative-affirms-at-aaa-31-07-2020"], ["created_at", "2020-08-01 01:35:18.304959"], ["updated_at", "2020-08-01 01:35:18.304959"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Google is about to fix the most annoying thing about Chromebooks - Android Central"], ["image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixelbook-go-review-1.jpg"], ["url", "https://www.androidcentral.com/google-details-how-windows-apps-will-run-your-chromebook"], ["created_at", "2020-08-01 01:35:18.310846"], ["updated_at", "2020-08-01 01:35:18.310846"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "A Google Pixel 5a is Coming! - Droid Life"], ["image", "https://www.droid-life.com/wp-content/uploads/2020/01/Pixel-3a-1-600x315-cropped.jpg"], ["url", "https://www.droid-life.com/2020/07/31/first-mention-of-google-pixel-5a-showed-up-today/"], ["created_at", "2020-08-01 01:35:18.316874"], ["updated_at", "2020-08-01 01:35:18.316874"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Another $1,200 stimulus check won't make up for loss of the $600 enhanced unemployment insurance - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106642861-1596217639001-gettyimages-1227844068-_da23033.jpeg?v=1596217927"], ["url", "https://www.cnbc.com/2020/07/31/another-stimulus-check-wont-make-up-for-loss-of-enhanced-unemployment-insurance.html"], ["created_at", "2020-08-01 01:35:18.324335"], ["updated_at", "2020-08-01 01:35:18.324335"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "MAYS (J.W.) INC"], ["ticker", "MAYS"], ["current_price", 19], ["low", 19], ["high", 19], ["created_at", "2020-08-01 01:35:19.113111"], ["updated_at", "2020-08-01 01:35:19.113111"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "ZTEST"], ["current_price", 10], ["low", 10], ["high", 10], ["created_at", "2020-08-01 01:35:19.905157"], ["updated_at", "2020-08-01 01:35:19.905157"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "HEALTH CATALYST INC"], ["ticker", "HCAT"], ["current_price", 34], ["low", 34], ["high", 36], ["created_at", "2020-08-01 01:35:20.564105"], ["updated_at", "2020-08-01 01:35:20.564105"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SENMIAO TECHNOLOGY LTD"], ["ticker", "AIHS"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 01:35:21.281506"], ["updated_at", "2020-08-01 01:35:21.281506"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "ISHARES IBONDS DEC 2020 TERM"], ["ticker", "IBDL"], ["current_price", 25], ["low", 25], ["high", 25], ["created_at", "2020-08-01 01:35:22.280569"], ["updated_at", "2020-08-01 01:35:22.280569"]]
+  [1m[35m (58.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (1.4ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "GP STRATEGIES CORP"], ["ticker", "GPX"], ["current_price", 7], ["low", 7], ["high", 8], ["created_at", "2020-08-01 01:35:23.014503"], ["updated_at", "2020-08-01 01:35:23.014503"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "ZXZZT"], ["current_price", 18], ["low", 18], ["high", 18], ["created_at", "2020-08-01 01:35:23.720652"], ["updated_at", "2020-08-01 01:35:23.720652"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/0/5616/3744"], ["created_at", "2020-08-01 01:35:24.286883"], ["updated_at", "2020-08-01 01:35:24.286883"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1/5616/3744"], ["created_at", "2020-08-01 01:35:24.294005"], ["updated_at", "2020-08-01 01:35:24.294005"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/10/2500/1667"], ["created_at", "2020-08-01 01:35:24.299472"], ["updated_at", "2020-08-01 01:35:24.299472"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/100/2500/1656"], ["created_at", "2020-08-01 01:35:24.307614"], ["updated_at", "2020-08-01 01:35:24.307614"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1000/5626/3635"], ["created_at", "2020-08-01 01:35:24.314346"], ["updated_at", "2020-08-01 01:35:24.314346"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1001/5616/3744"], ["created_at", "2020-08-01 01:35:24.320128"], ["updated_at", "2020-08-01 01:35:24.320128"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1002/4312/2868"], ["created_at", "2020-08-01 01:35:24.326235"], ["updated_at", "2020-08-01 01:35:24.326235"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1003/1181/1772"], ["created_at", "2020-08-01 01:35:24.351316"], ["updated_at", "2020-08-01 01:35:24.351316"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1004/5616/3744"], ["created_at", "2020-08-01 01:35:24.356585"], ["updated_at", "2020-08-01 01:35:24.356585"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-08-01 01:35:24.361363"], ["updated_at", "2020-08-01 01:35:24.361363"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/stocks" for ::1 at 2020-07-31 19:35:32 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:35:32 -0600
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StocksController#index as */*
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mStock Load (0.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 49ms (Views: 42.7ms | ActiveRecord: 2.0ms | Allocations: 10232)
+
+
+Completed 200 OK in 62ms (Views: 58.0ms | ActiveRecord: 2.5ms | Allocations: 14658)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:41:24 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:41:24 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (8.6ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 59ms (Views: 41.4ms | ActiveRecord: 8.6ms | Allocations: 1842)
+
+
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 1.1ms | Allocations: 3585)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:44:21 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:44:21 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (1.1ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.7ms | Allocations: 4655)
+
+
+Completed 200 OK in 35ms (Views: 29.5ms | ActiveRecord: 1.1ms | Allocations: 2912)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 19:44:49 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 19:44:49 -0600
+Processing by StocksController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mStock Load (0.2ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.5ms | Allocations: 4182)
+
+
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.2ms | Allocations: 5401)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:44:58 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:44:58 -0600
+Processing by StocksController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mStock Load (0.9ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.9ms | Allocations: 2671)
+
+
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.7ms | Allocations: 5252)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 19:45:55 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 19:45:55 -0600
+Processing by ArticlesController#index as */*
+Processing by StocksController#index as */*
+  [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  [1m[36mStock Load (0.6ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Completed 200 OK in 42ms (Views: 32.2ms | ActiveRecord: 1.7ms | Allocations: 3738)
+
+
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.6ms | Allocations: 5362)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 19:46:03 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 19:46:03 -0600
+Processing by StocksController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mStock Load (0.6ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 1.1ms | Allocations: 4186)
+
+
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.6ms | Allocations: 5418)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 19:46:10 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 19:46:10 -0600
+Processing by ArticlesController#index as */*
+Processing by StocksController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mStock Load (0.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.3ms | Allocations: 4355)
+
+
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.3ms | Allocations: 5170)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:46:24 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:46:24 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (0.4ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Processing by ArticlesController#index as */*
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.4ms | Allocations: 2061)
+
+
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.6ms | Allocations: 4833)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:47:31 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:47:31 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by StocksController#index as */*
+  [1m[36mStock Load (0.4ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.4ms | Allocations: 2313)
+
+
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 59ms (Views: 48.5ms | ActiveRecord: 1.3ms | Allocations: 5439)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:47:47 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:47:47 -0600
+Processing by StocksController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mStock Load (0.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.4ms | Allocations: 4182)
+
+
+Completed 200 OK in 33ms (Views: 23.3ms | ActiveRecord: 0.3ms | Allocations: 5609)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:48:18 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:48:18 -0600
+Processing by ArticlesController#index as */*
+Processing by StocksController#index as */*
+  [1m[36mArticle Load (3.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mStock Load (0.6ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 50ms (Views: 35.1ms | ActiveRecord: 3.1ms | Allocations: 4607)
+
+
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.6ms | Allocations: 5167)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 19:48:34 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 19:48:34 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (0.5ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Processing by ArticlesController#index as */*
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.5ms | Allocations: 2137)
+
+
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.4ms | Allocations: 3763)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:49:22 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:49:22 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by StocksController#index as */*
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  [1m[36mStock Load (0.7ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Completed 200 OK in 38ms (Views: 29.7ms | ActiveRecord: 2.0ms | Allocations: 4058)
+
+
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.7ms | Allocations: 4748)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 19:49:52 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 19:49:52 -0600
+Processing by ArticlesController#index as */*
+Processing by StocksController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mStock Load (0.4ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.7ms | Allocations: 4352)
+
+
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.4ms | Allocations: 5167)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 216]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 217]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 218]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 219]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 220]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 221]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 222]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 223]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 224]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 225]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 226]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.1ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 227]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 228]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 229]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 230]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 231]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 232]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (2.0ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 233]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 234]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (2.1ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 235]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 101]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 102]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 103]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 104]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 105]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 106]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 107]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.6ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 108]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 109]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 110]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mStock Load (0.4ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.8ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 15]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 16]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 17]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.6ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 18]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 19]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 20]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.6ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 21]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "NASA Astronauts Robert Behnken and Douglas Hurley Are Coming Home! - NASA"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SjNWdUxLRm52bFHSAQA?oc=5"], ["created_at", "2020-08-01 01:50:40.689777"], ["updated_at", "2020-08-01 01:50:40.689777"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.9ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Harris allies granted call with Biden campaign after Dodd blowup - POLITICO"], ["image", "https://static.politico.com/7b/30/87e5677e43f4927267f3fd547d2e/191127-kamala-harris-ap-773.jpg"], ["url", "https://www.politico.com/news/2020/07/31/harris-allies-biden-call-dodd-389848"], ["created_at", "2020-08-01 01:50:40.702168"], ["updated_at", "2020-08-01 01:50:40.702168"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Ellen DeGeneres' show in turmoil after allegations of sexual harassment, racism and a toxic work … - CBS Evening News"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9U2NrdDUxSWl0UmPSAQA?oc=5"], ["created_at", "2020-08-01 01:50:40.715080"], ["updated_at", "2020-08-01 01:50:40.715080"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "6 Death Sentences Thrown Out For Boston Marathon Bomber - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/gettyimages-1219954375_wide-866a7105f342c6b5e28a68be7a33cf6042ae9ffe.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897932367/appeals-court-tosses-out-death-sentence-for-boston-marathon-bomber"], ["created_at", "2020-08-01 01:50:40.727256"], ["updated_at", "2020-08-01 01:50:40.727256"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Why Apple Stock Soared to a New All-Time High Today - Motley Fool"], ["image", "https://g.foolcdn.com/editorial/images/585276/growth-gettyimages-937862440.jpg"], ["url", "https://www.fool.com/investing/2020/07/31/why-apple-stock-soared-to-a-new-all-time-high-toda.aspx"], ["created_at", "2020-08-01 01:50:40.734060"], ["updated_at", "2020-08-01 01:50:40.734060"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Supreme Court allows continued construction of Trump's border wall - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/191122144021-02-trump-wall-file-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/politics/supreme-court-border-wall/index.html"], ["created_at", "2020-08-01 01:50:40.790325"], ["updated_at", "2020-08-01 01:50:40.790325"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.1ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "5 p.m. Friday: Hurricane warnings issued for parts of Florida's east coast ahead of Isaias - 10 Tampa Bay"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UUZxbXhIMVNFVGPSAQA?oc=5"], ["created_at", "2020-08-01 01:50:40.842209"], ["updated_at", "2020-08-01 01:50:40.842209"]]
+  [1m[35m (20.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "James Murdoch resigns from News Corp., citing editorial differences - NBC News"], ["image", "https://media2.s-nbcnews.com/j/newscms/2020_31/3401381/200731-james-murdoch-se-536p_b8186d810d3e976ab08d7ed5ab3266ac.nbcnews-fp-1200-630.jpg"], ["url", "https://www.nbcnews.com/business/business-news/james-murdoch-resigns-news-corp-citing-editorial-differences-n1235545"], ["created_at", "2020-08-01 01:50:40.888601"], ["updated_at", "2020-08-01 01:50:40.888601"]]
+  [1m[35m (28.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Astronauts SpaceX Crew Dragon Capsule Are Returning To Earth - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/dm2_crew_cassidy_iss_wide-566910b4fa41a32e2c1ad97b81167a822c8d2134.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897870610/astronauts-set-to-return-to-earth-in-first-u-s-splashdown-in-decades"], ["created_at", "2020-08-01 01:50:40.922689"], ["updated_at", "2020-08-01 01:50:40.922689"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Beyonce offers rare glimpse of twins Sir and Rumi, three, in visual album Black Is King - Daily Mail"], ["image", "https://i.dailymail.co.uk/1s/2020/07/31/22/31428996-0-image-a-144_1596230091277.jpg"], ["url", "https://www.dailymail.co.uk/tvshowbiz/article-8581953/Beyonce-offers-rare-glimpse-twins-Sir-Rumi-three-visual-album-Black-King.html"], ["created_at", "2020-08-01 01:50:40.929857"], ["updated_at", "2020-08-01 01:50:40.929857"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "McConnell signal to Republican Senate candidates: Distance from Trump if necessary - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200630104649-01-mcconnell-mask-0511-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/politics/senate-mcconnell-trump-firewall/index.html"], ["created_at", "2020-08-01 01:50:40.937237"], ["updated_at", "2020-08-01 01:50:40.937237"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Despite Historic Plunge, Europe’s Economy Flashes Signs of Recovery - The New York Times"], ["image", "https://static01.nyt.com/images/2020/07/31/business/31eu-econ-promo/31eu-econ-promo-facebookJumbo.jpg"], ["url", "https://www.nytimes.com/2020/07/31/business/europe-economy-recovery-coronavirus.html"], ["created_at", "2020-08-01 01:50:40.944050"], ["updated_at", "2020-08-01 01:50:40.944050"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bill Belichick - Cam Newton will have to win Patriots' starting QB job - ESPN"], ["image", "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0710%2Fr717626_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/nfl/story/_/id/29572970/bill-belichick-cam-newton-win-patriots-starting-qb-job"], ["created_at", "2020-08-01 01:50:40.950094"], ["updated_at", "2020-08-01 01:50:40.950094"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "California reports its first teen death related to coronavirus - Los Angeles Times"], ["image", "https://ca-times.brightspotcdn.com/dims4/default/5e16d1c/2147483647/strip/true/crop/2100x1103+0+342/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc3%2Fe6%2F90d5817a4bdbbc72bef1523c9137%2F49666286236-30d05cefb2-o.jpg"], ["url", "https://www.latimes.com/california/story/2020-07-31/california-reports-first-teen-death-related-from-coronavirus"], ["created_at", "2020-08-01 01:50:40.958664"], ["updated_at", "2020-08-01 01:50:40.958664"]]
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Sources - MLB commissioner warns of shutdown if coronavirus isn't better managed - ESPN"], ["image", "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0731%2Fr726058_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/mlb/story/_/id/29572885/sources-mlb-commissioner-warns-shutdown-players-do-better-job-managing-coronavirus"], ["created_at", "2020-08-01 01:50:40.976490"], ["updated_at", "2020-08-01 01:50:40.976490"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Jessica Biel and Justin Timberlake Welcome Baby No. 2: Relive Their Sweetest Family Moments - E! NEWS"], ["image", "https://akns-images.eonline.com/eol_images/Entire_Site/201835/rs_600x600-180405131008-600-baby-silas-justin-timberlake-jessica-biel.jpg?fit=around|1080:1080&output-quality=90&crop=1080:1080;center,top"], ["url", "https://www.eonline.com/news/1171856/jessica-biel-and-justin-timberlake-welcome-baby-no-2-relive-their-sweetest-family-moments"], ["created_at", "2020-08-01 01:50:40.982687"], ["updated_at", "2020-08-01 01:50:40.982687"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fitch Revises United States' Outlook to Negative; Affirms at AAA - Fitch Ratings"], ["url", "https://www.fitchratings.com/research/sovereigns/fitch-revises-united-states-outlook-to-negative-affirms-at-aaa-31-07-2020"], ["created_at", "2020-08-01 01:50:40.989828"], ["updated_at", "2020-08-01 01:50:40.989828"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Google is about to fix the most annoying thing about Chromebooks - Android Central"], ["image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixelbook-go-review-1.jpg"], ["url", "https://www.androidcentral.com/google-details-how-windows-apps-will-run-your-chromebook"], ["created_at", "2020-08-01 01:50:40.995576"], ["updated_at", "2020-08-01 01:50:40.995576"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "A Google Pixel 5a is Coming! - Droid Life"], ["image", "https://www.droid-life.com/wp-content/uploads/2020/01/Pixel-3a-1-600x315-cropped.jpg"], ["url", "https://www.droid-life.com/2020/07/31/first-mention-of-google-pixel-5a-showed-up-today/"], ["created_at", "2020-08-01 01:50:41.006333"], ["updated_at", "2020-08-01 01:50:41.006333"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Another $1,200 stimulus check won't make up for loss of the $600 enhanced unemployment insurance - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106642861-1596217639001-gettyimages-1227844068-_da23033.jpeg?v=1596217927"], ["url", "https://www.cnbc.com/2020/07/31/another-stimulus-check-wont-make-up-for-loss-of-enhanced-unemployment-insurance.html"], ["created_at", "2020-08-01 01:50:41.013534"], ["updated_at", "2020-08-01 01:50:41.013534"]]
+  [1m[35m (29.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "KORN FERRY"], ["ticker", "KFY"], ["current_price", 28], ["low", 27], ["high", 28], ["created_at", "2020-08-01 01:50:42.094737"], ["updated_at", "2020-08-01 01:50:42.094737"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "CDMOP"], ["current_price", 25], ["low", 25], ["high", 25], ["created_at", "2020-08-01 01:50:42.688354"], ["updated_at", "2020-08-01 01:50:42.688354"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.8ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "WFC-W"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 01:50:43.535867"], ["updated_at", "2020-08-01 01:50:43.535867"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "UNITED STATES BRENT OIL FUND"], ["ticker", "BNO"], ["current_price", 11], ["low", 11], ["high", 11], ["created_at", "2020-08-01 01:50:44.254941"], ["updated_at", "2020-08-01 01:50:44.254941"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "COMMERCIAL METALS CO"], ["ticker", "CMC"], ["current_price", 20], ["low", 20], ["high", 21], ["created_at", "2020-08-01 01:50:44.868190"], ["updated_at", "2020-08-01 01:50:44.868190"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "IQ CANDRIAM ESG US EQUITY ET"], ["ticker", "IQSU"], ["current_price", 27], ["low", 27], ["high", 27], ["created_at", "2020-08-01 01:50:45.529261"], ["updated_at", "2020-08-01 01:50:45.529261"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "AYTU BIOSCIENCE INC"], ["ticker", "AYTU"], ["current_price", 1], ["low", 1], ["high", 1], ["created_at", "2020-08-01 01:50:46.299329"], ["updated_at", "2020-08-01 01:50:46.299329"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.8ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "FIRST TRUST MORTGAGE INCOME"], ["ticker", "FMY"], ["current_price", 13], ["low", 13], ["high", 13], ["created_at", "2020-08-01 01:50:46.929332"], ["updated_at", "2020-08-01 01:50:46.929332"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "ALTUS MIDSTREAM CO -A"], ["ticker", "ALTM"], ["current_price", 13], ["low", 13], ["high", 14], ["created_at", "2020-08-01 01:50:47.512778"], ["updated_at", "2020-08-01 01:50:47.512778"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.8ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "RICHMOND MUTUAL BANCORPORATI"], ["ticker", "RMBI"], ["current_price", 11], ["low", 11], ["high", 11], ["created_at", "2020-08-01 01:50:48.145590"], ["updated_at", "2020-08-01 01:50:48.145590"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "VERU INC"], ["ticker", "VERU"], ["current_price", 2], ["low", 2], ["high", 2], ["created_at", "2020-08-01 01:50:48.756344"], ["updated_at", "2020-08-01 01:50:48.756344"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "NORTHRIM BANCORP INC"], ["ticker", "NRIM"], ["current_price", 23], ["low", 22], ["high", 23], ["created_at", "2020-08-01 01:50:49.359305"], ["updated_at", "2020-08-01 01:50:49.359305"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "TRIPADVISOR INC"], ["ticker", "TRIP"], ["current_price", 20], ["low", 19], ["high", 20], ["created_at", "2020-08-01 01:50:50.224585"], ["updated_at", "2020-08-01 01:50:50.224585"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "DS-C"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 01:50:51.326845"], ["updated_at", "2020-08-01 01:50:51.326845"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.8ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "CONSOL COAL RESOURCES LP"], ["ticker", "CCR"], ["current_price", 3], ["low", 3], ["high", 3], ["created_at", "2020-08-01 01:50:51.933858"], ["updated_at", "2020-08-01 01:50:51.933858"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "NYMTO"], ["current_price", 20], ["low", 19], ["high", 20], ["created_at", "2020-08-01 01:50:52.509191"], ["updated_at", "2020-08-01 01:50:52.509191"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "ARGENX SE - ADR"], ["ticker", "ARGX"], ["current_price", 230], ["low", 226], ["high", 232], ["created_at", "2020-08-01 01:50:53.518187"], ["updated_at", "2020-08-01 01:50:53.518187"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "AURORA CANNABIS INC"], ["ticker", "ACB"], ["current_price", 10], ["low", 10], ["high", 10], ["created_at", "2020-08-01 01:50:54.094717"], ["updated_at", "2020-08-01 01:50:54.094717"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (1.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "WOLVERINE WORLD WIDE INC"], ["ticker", "WWW"], ["current_price", 24], ["low", 23], ["high", 24], ["created_at", "2020-08-01 01:50:54.703225"], ["updated_at", "2020-08-01 01:50:54.703225"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.8ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "BLACKBERRY LTD"], ["ticker", "BB"], ["current_price", 4], ["low", 4], ["high", 4], ["created_at", "2020-08-01 01:50:55.350824"], ["updated_at", "2020-08-01 01:50:55.350824"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/0/5616/3744"], ["created_at", "2020-08-01 01:50:56.029676"], ["updated_at", "2020-08-01 01:50:56.029676"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1/5616/3744"], ["created_at", "2020-08-01 01:50:56.038472"], ["updated_at", "2020-08-01 01:50:56.038472"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.8ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/10/2500/1667"], ["created_at", "2020-08-01 01:50:56.052130"], ["updated_at", "2020-08-01 01:50:56.052130"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/100/2500/1656"], ["created_at", "2020-08-01 01:50:56.063344"], ["updated_at", "2020-08-01 01:50:56.063344"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1000/5626/3635"], ["created_at", "2020-08-01 01:50:56.069622"], ["updated_at", "2020-08-01 01:50:56.069622"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1001/5616/3744"], ["created_at", "2020-08-01 01:50:56.075857"], ["updated_at", "2020-08-01 01:50:56.075857"]]
+  [1m[35m (14.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1002/4312/2868"], ["created_at", "2020-08-01 01:50:56.094455"], ["updated_at", "2020-08-01 01:50:56.094455"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1003/1181/1772"], ["created_at", "2020-08-01 01:50:56.118209"], ["updated_at", "2020-08-01 01:50:56.118209"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1004/5616/3744"], ["created_at", "2020-08-01 01:50:56.125357"], ["updated_at", "2020-08-01 01:50:56.125357"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-08-01 01:50:56.131410"], ["updated_at", "2020-08-01 01:50:56.131410"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/stocks" for ::1 at 2020-07-31 19:51:07 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:51:07 -0600
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by StocksController#index as */*
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  [1m[36mStock Load (0.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 162ms (Views: 156.3ms | ActiveRecord: 3.1ms | Allocations: 15992)
+
+
+Completed 200 OK in 175ms (Views: 167.3ms | ActiveRecord: 1.7ms | Allocations: 17854)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 236]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 237]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 238]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 239]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 240]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 241]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 242]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 243]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 244]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 245]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 246]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 247]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 248]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 249]]
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 250]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 251]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 252]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 253]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 254]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 255]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 111]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 112]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.6ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 113]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 114]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 115]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 116]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.6ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 117]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 118]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 119]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 120]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mStock Load (0.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.7ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 22]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 23]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 24]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 25]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 26]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 27]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.7ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 28]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 29]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 30]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 31]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 32]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 33]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 34]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 35]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 36]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.7ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 37]]
+  [1m[35m (12.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.6ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 38]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 39]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 40]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 41]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "NASA Astronauts Robert Behnken and Douglas Hurley Are Coming Home! - NASA"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SjNWdUxLRm52bFHSAQA?oc=5"], ["created_at", "2020-08-01 01:51:51.657815"], ["updated_at", "2020-08-01 01:51:51.657815"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Harris allies granted call with Biden campaign after Dodd blowup - POLITICO"], ["image", "https://static.politico.com/7b/30/87e5677e43f4927267f3fd547d2e/191127-kamala-harris-ap-773.jpg"], ["url", "https://www.politico.com/news/2020/07/31/harris-allies-biden-call-dodd-389848"], ["created_at", "2020-08-01 01:51:51.663518"], ["updated_at", "2020-08-01 01:51:51.663518"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Ellen DeGeneres' show in turmoil after allegations of sexual harassment, racism and a toxic work … - CBS Evening News"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9U2NrdDUxSWl0UmPSAQA?oc=5"], ["created_at", "2020-08-01 01:51:51.672259"], ["updated_at", "2020-08-01 01:51:51.672259"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "6 Death Sentences Thrown Out For Boston Marathon Bomber - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/gettyimages-1219954375_wide-866a7105f342c6b5e28a68be7a33cf6042ae9ffe.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897932367/appeals-court-tosses-out-death-sentence-for-boston-marathon-bomber"], ["created_at", "2020-08-01 01:51:51.678462"], ["updated_at", "2020-08-01 01:51:51.678462"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Why Apple Stock Soared to a New All-Time High Today - Motley Fool"], ["image", "https://g.foolcdn.com/editorial/images/585276/growth-gettyimages-937862440.jpg"], ["url", "https://www.fool.com/investing/2020/07/31/why-apple-stock-soared-to-a-new-all-time-high-toda.aspx"], ["created_at", "2020-08-01 01:51:51.683987"], ["updated_at", "2020-08-01 01:51:51.683987"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Supreme Court allows continued construction of Trump's border wall - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/191122144021-02-trump-wall-file-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/politics/supreme-court-border-wall/index.html"], ["created_at", "2020-08-01 01:51:51.689677"], ["updated_at", "2020-08-01 01:51:51.689677"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "5 p.m. Friday: Hurricane warnings issued for parts of Florida's east coast ahead of Isaias - 10 Tampa Bay"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UUZxbXhIMVNFVGPSAQA?oc=5"], ["created_at", "2020-08-01 01:51:51.694842"], ["updated_at", "2020-08-01 01:51:51.694842"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "James Murdoch resigns from News Corp., citing editorial differences - NBC News"], ["image", "https://media2.s-nbcnews.com/j/newscms/2020_31/3401381/200731-james-murdoch-se-536p_b8186d810d3e976ab08d7ed5ab3266ac.nbcnews-fp-1200-630.jpg"], ["url", "https://www.nbcnews.com/business/business-news/james-murdoch-resigns-news-corp-citing-editorial-differences-n1235545"], ["created_at", "2020-08-01 01:51:51.699788"], ["updated_at", "2020-08-01 01:51:51.699788"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Astronauts SpaceX Crew Dragon Capsule Are Returning To Earth - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/31/dm2_crew_cassidy_iss_wide-566910b4fa41a32e2c1ad97b81167a822c8d2134.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/31/897870610/astronauts-set-to-return-to-earth-in-first-u-s-splashdown-in-decades"], ["created_at", "2020-08-01 01:51:51.706470"], ["updated_at", "2020-08-01 01:51:51.706470"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Beyonce offers rare glimpse of twins Sir and Rumi, three, in visual album Black Is King - Daily Mail"], ["image", "https://i.dailymail.co.uk/1s/2020/07/31/22/31428996-0-image-a-144_1596230091277.jpg"], ["url", "https://www.dailymail.co.uk/tvshowbiz/article-8581953/Beyonce-offers-rare-glimpse-twins-Sir-Rumi-three-visual-album-Black-King.html"], ["created_at", "2020-08-01 01:51:51.712245"], ["updated_at", "2020-08-01 01:51:51.712245"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "McConnell signal to Republican Senate candidates: Distance from Trump if necessary - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200630104649-01-mcconnell-mask-0511-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/31/politics/senate-mcconnell-trump-firewall/index.html"], ["created_at", "2020-08-01 01:51:51.718513"], ["updated_at", "2020-08-01 01:51:51.718513"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Despite Historic Plunge, Europe’s Economy Flashes Signs of Recovery - The New York Times"], ["image", "https://static01.nyt.com/images/2020/07/31/business/31eu-econ-promo/31eu-econ-promo-facebookJumbo.jpg"], ["url", "https://www.nytimes.com/2020/07/31/business/europe-economy-recovery-coronavirus.html"], ["created_at", "2020-08-01 01:51:51.725788"], ["updated_at", "2020-08-01 01:51:51.725788"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bill Belichick - Cam Newton will have to win Patriots' starting QB job - ESPN"], ["image", "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0710%2Fr717626_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/nfl/story/_/id/29572970/bill-belichick-cam-newton-win-patriots-starting-qb-job"], ["created_at", "2020-08-01 01:51:51.731402"], ["updated_at", "2020-08-01 01:51:51.731402"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "California reports its first teen death related to coronavirus - Los Angeles Times"], ["image", "https://ca-times.brightspotcdn.com/dims4/default/5e16d1c/2147483647/strip/true/crop/2100x1103+0+342/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc3%2Fe6%2F90d5817a4bdbbc72bef1523c9137%2F49666286236-30d05cefb2-o.jpg"], ["url", "https://www.latimes.com/california/story/2020-07-31/california-reports-first-teen-death-related-from-coronavirus"], ["created_at", "2020-08-01 01:51:51.737785"], ["updated_at", "2020-08-01 01:51:51.737785"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Sources - MLB commissioner warns of shutdown if coronavirus isn't better managed - ESPN"], ["image", "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0731%2Fr726058_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/mlb/story/_/id/29572885/sources-mlb-commissioner-warns-shutdown-players-do-better-job-managing-coronavirus"], ["created_at", "2020-08-01 01:51:51.742732"], ["updated_at", "2020-08-01 01:51:51.742732"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Jessica Biel and Justin Timberlake Welcome Baby No. 2: Relive Their Sweetest Family Moments - E! NEWS"], ["image", "https://akns-images.eonline.com/eol_images/Entire_Site/201835/rs_600x600-180405131008-600-baby-silas-justin-timberlake-jessica-biel.jpg?fit=around|1080:1080&output-quality=90&crop=1080:1080;center,top"], ["url", "https://www.eonline.com/news/1171856/jessica-biel-and-justin-timberlake-welcome-baby-no-2-relive-their-sweetest-family-moments"], ["created_at", "2020-08-01 01:51:51.747926"], ["updated_at", "2020-08-01 01:51:51.747926"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fitch Revises United States' Outlook to Negative; Affirms at AAA - Fitch Ratings"], ["url", "https://www.fitchratings.com/research/sovereigns/fitch-revises-united-states-outlook-to-negative-affirms-at-aaa-31-07-2020"], ["created_at", "2020-08-01 01:51:51.754229"], ["updated_at", "2020-08-01 01:51:51.754229"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Google is about to fix the most annoying thing about Chromebooks - Android Central"], ["image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixelbook-go-review-1.jpg"], ["url", "https://www.androidcentral.com/google-details-how-windows-apps-will-run-your-chromebook"], ["created_at", "2020-08-01 01:51:51.759326"], ["updated_at", "2020-08-01 01:51:51.759326"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "A Google Pixel 5a is Coming! - Droid Life"], ["image", "https://www.droid-life.com/wp-content/uploads/2020/01/Pixel-3a-1-600x315-cropped.jpg"], ["url", "https://www.droid-life.com/2020/07/31/first-mention-of-google-pixel-5a-showed-up-today/"], ["created_at", "2020-08-01 01:51:51.764303"], ["updated_at", "2020-08-01 01:51:51.764303"]]
+  [1m[35m (17.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Another $1,200 stimulus check won't make up for loss of the $600 enhanced unemployment insurance - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106642861-1596217639001-gettyimages-1227844068-_da23033.jpeg?v=1596217927"], ["url", "https://www.cnbc.com/2020/07/31/another-stimulus-check-wont-make-up-for-loss-of-enhanced-unemployment-insurance.html"], ["created_at", "2020-08-01 01:51:51.787739"], ["updated_at", "2020-08-01 01:51:51.787739"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "GOLUB CAPITAL BDC INC"], ["ticker", "GBDC"], ["current_price", 11], ["low", 11], ["high", 11], ["created_at", "2020-08-01 01:51:52.421860"], ["updated_at", "2020-08-01 01:51:52.421860"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "NUVEEN S&P500 BUY-WRT INC FD"], ["ticker", "BXMX"], ["current_price", 11], ["low", 11], ["high", 11], ["created_at", "2020-08-01 01:51:53.118670"], ["updated_at", "2020-08-01 01:51:53.118670"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "CIM-D"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 01:51:53.987354"], ["updated_at", "2020-08-01 01:51:53.987354"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "INVESCO DB ENERGY FUND"], ["ticker", "DBE"], ["current_price", 9], ["low", 9], ["high", 9], ["created_at", "2020-08-01 01:51:54.650931"], ["updated_at", "2020-08-01 01:51:54.650931"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "FPI-B"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 01:51:55.229929"], ["updated_at", "2020-08-01 01:51:55.229929"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "OCFCP"], ["current_price", 26], ["low", 25], ["high", 26], ["created_at", "2020-08-01 01:51:55.893365"], ["updated_at", "2020-08-01 01:51:55.893365"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "DIREXION FLIGHT TO SAFETY ST"], ["ticker", "FLYT"], ["current_price", 55], ["low", 54], ["high", 55], ["created_at", "2020-08-01 01:51:56.612662"], ["updated_at", "2020-08-01 01:51:56.612662"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "SCE-J"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 01:51:57.353843"], ["updated_at", "2020-08-01 01:51:57.353843"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "LEIDOS HOLDINGS INC"], ["ticker", "LDOS"], ["current_price", 95], ["low", 91], ["high", 95], ["created_at", "2020-08-01 01:51:58.030040"], ["updated_at", "2020-08-01 01:51:58.030040"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SHAW COMMUNICATIONS INC-B"], ["ticker", "SJR"], ["current_price", 18], ["low", 18], ["high", 18], ["created_at", "2020-08-01 01:51:58.705054"], ["updated_at", "2020-08-01 01:51:58.705054"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (1.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "PINNACLE FINANCIAL PARTNERS"], ["ticker", "PNFP"], ["current_price", 39], ["low", 38], ["high", 40], ["created_at", "2020-08-01 01:52:00.444433"], ["updated_at", "2020-08-01 01:52:00.444433"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "INVESCO S&P 500 ENHANCED VAL"], ["ticker", "SPVU"], ["current_price", 27], ["low", 27], ["high", 27], ["created_at", "2020-08-01 01:52:01.042489"], ["updated_at", "2020-08-01 01:52:01.042489"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SCHWAB US SMALL-CAP ETF"], ["ticker", "SCHA"], ["current_price", 68], ["low", 67], ["high", 68], ["created_at", "2020-08-01 01:52:01.668747"], ["updated_at", "2020-08-01 01:52:01.668747"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (1.1ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bitcoin USD"], ["ticker", "BTCUSDT"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 01:52:02.687707"], ["updated_at", "2020-08-01 01:52:02.687707"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "ISHARES MSCI PACIFIC EX JAPA"], ["ticker", "EPP"], ["current_price", 40], ["low", 40], ["high", 40], ["created_at", "2020-08-01 01:52:03.278014"], ["updated_at", "2020-08-01 01:52:03.278014"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/0/5616/3744"], ["created_at", "2020-08-01 01:52:04.023265"], ["updated_at", "2020-08-01 01:52:04.023265"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1/5616/3744"], ["created_at", "2020-08-01 01:52:04.028898"], ["updated_at", "2020-08-01 01:52:04.028898"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/10/2500/1667"], ["created_at", "2020-08-01 01:52:04.036445"], ["updated_at", "2020-08-01 01:52:04.036445"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/100/2500/1656"], ["created_at", "2020-08-01 01:52:04.041187"], ["updated_at", "2020-08-01 01:52:04.041187"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1000/5626/3635"], ["created_at", "2020-08-01 01:52:04.045843"], ["updated_at", "2020-08-01 01:52:04.045843"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1001/5616/3744"], ["created_at", "2020-08-01 01:52:04.051533"], ["updated_at", "2020-08-01 01:52:04.051533"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1002/4312/2868"], ["created_at", "2020-08-01 01:52:04.057402"], ["updated_at", "2020-08-01 01:52:04.057402"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1003/1181/1772"], ["created_at", "2020-08-01 01:52:04.077538"], ["updated_at", "2020-08-01 01:52:04.077538"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1004/5616/3744"], ["created_at", "2020-08-01 01:52:04.082824"], ["updated_at", "2020-08-01 01:52:04.082824"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-08-01 01:52:04.089327"], ["updated_at", "2020-08-01 01:52:04.089327"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/stocks" for ::1 at 2020-07-31 19:52:13 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:52:13 -0600
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as */*
+Processing by StocksController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mStock Load (0.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 42ms (Views: 36.5ms | ActiveRecord: 1.8ms | Allocations: 9403)
+
+
+Completed 200 OK in 65ms (Views: 61.1ms | ActiveRecord: 1.3ms | Allocations: 16367)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 19:52:52 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 77ms (Views: 61.0ms | ActiveRecord: 1.7ms | Allocations: 3602)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:52:52 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (4.0ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 33ms (Views: 27.7ms | ActiveRecord: 4.0ms | Allocations: 2998)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 19:58:00 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 19:58:00 -0600
+Processing by ArticlesController#index as */*
+Processing by StocksController#index as */*
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  [1m[36mStock Load (5.7ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Completed 200 OK in 43ms (Views: 32.2ms | ActiveRecord: 1.4ms | Allocations: 3812)
+
+
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 141ms (Views: 134.7ms | ActiveRecord: 5.7ms | Allocations: 6578)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:59:04 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:59:04 -0600
+Processing by StocksController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mStock Load (1.2ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[36mArticle Load (1.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 36ms (Views: 32.9ms | ActiveRecord: 1.9ms | Allocations: 4183)
+
+
+Completed 200 OK in 66ms (Views: 61.4ms | ActiveRecord: 1.2ms | Allocations: 6580)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:59:19 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:59:19 -0600
+Processing by StocksController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mStock Load (0.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.3ms | Allocations: 3846)
+
+
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.7ms | Allocations: 6383)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 19:59:51 -0600
+Started GET "/articles" for ::1 at 2020-07-31 19:59:51 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (1.1ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 47ms (Views: 40.4ms | ActiveRecord: 1.1ms | Allocations: 3753)
+
+
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 1.0ms | Allocations: 5964)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 20:00:25 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 15.4ms | ActiveRecord: 1.9ms | Allocations: 3579)
+
+
+Started GET "/stocks" for ::1 at 2020-07-31 20:00:25 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (0.4ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 2981)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 20:00:39 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 20:00:39 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by StocksController#index as */*
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  [1m[36mStock Load (0.4ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 1.1ms | Allocations: 3778)
+
+
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.4ms | Allocations: 5728)
+
+
+Started GET "/articles" for ::1 at 2020-07-31 20:00:44 -0600
+Started GET "/stocks" for ::1 at 2020-07-31 20:00:44 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by StocksController#index as */*
+  [1m[36mStock Load (0.2ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.5ms | Allocations: 4392)
+
+
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.2ms | Allocations: 6125)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 256]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 257]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 258]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 259]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 260]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 261]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 262]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 263]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 264]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 265]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 266]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 267]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 268]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 269]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 270]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 271]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 272]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 273]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 274]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 275]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 121]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.3ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 122]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.9ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 123]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.6ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 124]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.3ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 125]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.4ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 126]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.7ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 127]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.8ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 128]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.6ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 129]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 130]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mStock Load (0.7ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (1.1ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 42]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 43]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 44]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.6ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 45]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.8ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 46]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (33.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 47]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 48]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 49]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (3.7ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 50]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (1.0ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 51]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (1.1ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 52]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 53]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 54]]
+  [1m[35m (19.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.5ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 55]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stocks" WHERE "stocks"."id" = ?[0m  [["id", 56]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "James Murdoch resigns from News Corp board over editorial differences - CBS News"], ["image", "https://cbsnews3.cbsistatic.com/hub/i/r/2012/02/29/b8aa148d-3a2d-11e3-a4cb-047d7b15b92e/thumbnail/1200x630/78703741fb958d6d6c1472bb97c97930/en_axelrod_0229.jpg"], ["url", "https://www.cbsnews.com/news/james-murdoch-resigns-news-corp-board-editorial-differences/"], ["created_at", "2020-08-01 17:40:07.519511"], ["updated_at", "2020-08-01 17:40:07.519511"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "CDC: Coronavirus spreads to hundreds of youth at overnight summer camp - Business Insider - Business Insider"], ["image", "https://i.insider.com/5f25786240c1f3475971e4b3?width=1200&format=jpeg"], ["url", "https://www.businessinsider.com/coronavirus-spread-to-hundreds-of-youth-overnight-summer-camp-2020-8"], ["created_at", "2020-08-01 17:40:07.527073"], ["updated_at", "2020-08-01 17:40:07.527073"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Lea Thompson backs claims of 'mean' behavior at 'Ellen DeGeneres Show' - Page Six"], ["image", "https://pagesix.com/wp-content/uploads/sites/3/2020/08/200801-ellen-show.jpg?quality=90&strip=all&w=1200"], ["url", "https://pagesix.com/2020/08/01/lea-thompson-backs-claims-of-mean-behavior-at-ellen-show/"], ["created_at", "2020-08-01 17:40:07.532728"], ["updated_at", "2020-08-01 17:40:07.532728"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Report: Brewers-Cardinals Game Postponed After More Positive COVID-19 Tests - Sports Illustrated"], ["image", "https://www.si.com/.image/t_share/MTc0Mzc3ODExMTExMzIzMjcw/st-louis-cardinals-logo.jpg"], ["url", "https://www.si.com/mlb/2020/08/01/cardinals-brewers-game-postponed-positive-coronavirus-tests"], ["created_at", "2020-08-01 17:40:07.538395"], ["updated_at", "2020-08-01 17:40:07.538395"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Black Is King review: Beyoncé’s visual album has deep Afrofuture meaning - Polygon"], ["image", "https://cdn.vox-cdn.com/thumbor/dAQ_xt3Ta9kNN8DAlfc5uTp5l6g=/0x0:1423x745/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21690274/Screen_Shot_2020_08_01_at_8.42.25_AM.png"], ["url", "https://www.polygon.com/2020/8/1/21350648/beyonce-black-is-king-review-visual-album-locations-costumes-themes-disney-plus"], ["created_at", "2020-08-01 17:40:07.543964"], ["updated_at", "2020-08-01 17:40:07.543964"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Thousands march against coronavirus restrictions in Berlin | TheHill - The Hill"], ["image", "https://thehill.com/sites/default/files/berlin_coronavirusmarch_080120getty.jpg"], ["url", "https://thehill.com/policy/international/europe/510111-thousands-march-against-coronavirus-restrictions-in-berlin"], ["created_at", "2020-08-01 17:40:07.549643"], ["updated_at", "2020-08-01 17:40:07.549643"]]
+  [1m[35m (25.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Boston Marathon bomber's death sentence vacated, former police chief reacts - Fox News"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NTMtVWpVRnhBRkXSAQA?oc=5"], ["created_at", "2020-08-01 17:40:07.579966"], ["updated_at", "2020-08-01 17:40:07.579966"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Miami Marlins see 2B Isan Diaz opt out, acquire LHP Richard Bleier in trade - ESPN"], ["image", "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fmlb%2F500%2Fbal.png"], ["url", "https://www.espn.com/mlb/story/_/id/29576592/miami-marlins-see-2b-isan-diaz-opt-acquire-lhp-richard-bleier-trade"], ["created_at", "2020-08-01 17:40:07.587487"], ["updated_at", "2020-08-01 17:40:07.587487"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "343 commits to crossplay, input-based matchmaking and custom game browser for Halo: The Master Chief Collection in 2020 - Eurogamer.net"], ["image", "https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-08-01-14-41/-1596289275244.jpg/EG11/resize/1200x-1/-1596289275244.jpg"], ["url", "https://www.eurogamer.net/articles/2020-08-01-343-commits-to-crossplay-input-based-matchmaking-and-custom-game-browser-for-halo-the-master-chief-collection-in-2020"], ["created_at", "2020-08-01 17:40:07.593254"], ["updated_at", "2020-08-01 17:40:07.593254"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (2.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Enhanced jobless benefits expired overnight: Here's where Congress' negotiations stand - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200115150823-pelosi-mcconnell-split-0115-super-tease.jpg"], ["url", "https://www.cnn.com/2020/08/01/politics/unemployment-benefits-expire-congress-negotiations/index.html"], ["created_at", "2020-08-01 17:40:07.599066"], ["updated_at", "2020-08-01 17:40:07.599066"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Why August in a pandemic for stock-market investors is a time for vigilance - MarketWatch"], ["image", "https://images.mktw.net/im-215658?size=1.4382022471910112"], ["url", "https://www.marketwatch.com/story/why-august-in-a-pandemic-for-stock-market-investors-is-a-time-for-vigilance-11596288235"], ["created_at", "2020-08-01 17:40:07.610852"], ["updated_at", "2020-08-01 17:40:07.610852"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "NHL schedule for 2020 Stanley Cup Qualifiers in league’s Return to Play - NHL"], ["image", "https://nhl.nbcsports.com/wp-content/uploads/sites/13/2020/07/GettyImages-92915923.jpg?resize=1024,683"], ["url", "https://nhl.nbcsports.com/2020/08/01/2020-nhl-playoffs-schedule-stanley-cup-qualifiers/"], ["created_at", "2020-08-01 17:40:07.617131"], ["updated_at", "2020-08-01 17:40:07.617131"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Hong Kong issues arrest warrant for U.S. citizen under new national security law - NBC News"], ["image", "https://media4.s-nbcnews.com/j/newscms/2020_28/3394858/200706-hong-kong-protest-cs-1022a_647b185356390885717be035587104cc.nbcnews-fp-1200-630.jpg"], ["url", "https://www.nbcnews.com/news/world/hong-kong-issues-arrest-warrant-u-s-citizen-under-new-n1235574"], ["created_at", "2020-08-01 17:40:07.622909"], ["updated_at", "2020-08-01 17:40:07.622909"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Watch live as SpaceX brings NASA astronauts back from the Space Station aboard Crew Dragon - TechCrunch"], ["image", "https://techcrunch.com/wp-content/uploads/2020/08/Bob-and-Doug-Inside-Crew-Dragon.jpg?w=600"], ["url", "http://techcrunch.com/2020/08/01/watch-live-as-spacex-brings-nasa-astronauts-back-from-the-space-station-aboard-crew-dragon/"], ["created_at", "2020-08-01 17:40:07.628722"], ["updated_at", "2020-08-01 17:40:07.628722"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "FOX 35 Weather Alert Day: Watches, warnings issued as Hurricane Isaias approaches Florida - FOX 35 Orlando"], ["image", "https://images.foxtv.com/static.fox35orlando.com/www.fox35orlando.com/content/uploads/2020/08/1280/720/11-am-isaias-track.jpg?ve=1&tl=1"], ["url", "https://www.fox35orlando.com/news/fox-35-weather-alert-day-hurricane-isaias-weakens-slightly-as-it-nears-floridas-coast"], ["created_at", "2020-08-01 17:40:07.634493"], ["updated_at", "2020-08-01 17:40:07.634493"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Red onions linked to salmonella outbreak that has sickened people in 31 states, officials say - WMUR Manchester"], ["image", "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/red-onion-1596284399.jpg?crop=1.00xw:0.848xh;0,0&resize=1200:*"], ["url", "https://www.wmur.com/article/red-onions-linked-to-salmonella-outbreak-that-has-sickened-people-in-31-states-officials-say/33488082"], ["created_at", "2020-08-01 17:40:07.641027"], ["updated_at", "2020-08-01 17:40:07.641027"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "iPhone 12 Price Surprise As Apple’s Expensive iPhones Revealed - Forbes"], ["image", "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ee6b36bc0e4020006640320%2F0x0.jpg"], ["url", "https://www.forbes.com/sites/gordonkelly/2020/08/01/apple-iphone-12-prices-cost-upgrade-iphone-11-pro-max-update/"], ["created_at", "2020-08-01 17:40:07.660733"], ["updated_at", "2020-08-01 17:40:07.660733"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Meghan Markle, Prince Harry Fans Hatch 'Unforgettable' Plan To Mark Royals' Birthdays - HuffPost"], ["image", "https://img.huffingtonpost.com/asset/5f22f8b5220000dd11387d7e.jpeg?cache=aLLTK5qSRR&ops=1200_630"], ["url", "https://www.huffpost.com/entry/meghan-markle-prince-harry-sussex-squad-scholarship_n_5f219e71c5b6b8cd63b0d490"], ["created_at", "2020-08-01 17:40:07.666687"], ["updated_at", "2020-08-01 17:40:07.666687"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "‘Cocktails and Masks Don’t Really Go Together’ - The New York Times"], ["image", "https://static01.nyt.com/images/2020/08/02/world/02moscowdispatch2/merlin_174764931_b934ad94-2385-453a-83a6-f8e42d4ad928-facebookJumbo.jpg"], ["url", "https://www.nytimes.com/2020/08/01/world/europe/russia-moscow-coronaviru.html"], ["created_at", "2020-08-01 17:40:07.673628"], ["updated_at", "2020-08-01 17:40:07.673628"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "How Woody Vines Do the Twist - The New York Times"], ["image", "https://static01.nyt.com/images/2020/08/04/science/00SCI-VINES1/00SCI-VINES1-facebookJumbo.jpg"], ["url", "https://www.nytimes.com/2020/08/01/science/vines-lianas-panama.html"], ["created_at", "2020-08-01 17:40:07.682397"], ["updated_at", "2020-08-01 17:40:07.682397"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SENECA FOODS CORP - CL B"], ["ticker", "SENEB"], ["current_price", 39], ["low", 39], ["high", 39], ["created_at", "2020-08-01 17:40:08.326194"], ["updated_at", "2020-08-01 17:40:08.326194"]]
+  [1m[35m (65.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (29.1ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "CHARLES RIVER LABORATORIES"], ["ticker", "CRL"], ["current_price", 198], ["low", 195], ["high", 202], ["created_at", "2020-08-01 17:40:09.005347"], ["updated_at", "2020-08-01 17:40:09.005347"]]
+  [1m[35m (70.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.8ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "PROSHARES ULTRASHORT MSCI BR"], ["ticker", "BZQ"], ["current_price", 13], ["low", 12], ["high", 13], ["created_at", "2020-08-01 17:40:09.998234"], ["updated_at", "2020-08-01 17:40:09.998234"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "COUPA SOFTWARE INC"], ["ticker", "COUP"], ["current_price", 306], ["low", 296], ["high", 307], ["created_at", "2020-08-01 17:40:10.651177"], ["updated_at", "2020-08-01 17:40:10.651177"]]
+  [1m[35m (72.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "LXP-C"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 17:40:11.548753"], ["updated_at", "2020-08-01 17:40:11.548753"]]
+  [1m[35m (65.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "PARETEUM CORP"], ["ticker", "TEUM"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 17:40:12.271140"], ["updated_at", "2020-08-01 17:40:12.271140"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SPDR PORTFOLIO S&P 500 ETF"], ["ticker", "SPLG"], ["current_price", 38], ["low", 37], ["high", 38], ["created_at", "2020-08-01 17:40:13.081608"], ["updated_at", "2020-08-01 17:40:13.081608"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SUNCOKE ENERGY INC"], ["ticker", "SXC"], ["current_price", 3], ["low", 3], ["high", 3], ["created_at", "2020-08-01 17:40:13.691225"], ["updated_at", "2020-08-01 17:40:13.691225"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "RESONANT INC"], ["ticker", "RESN"], ["current_price", 2], ["low", 2], ["high", 2], ["created_at", "2020-08-01 17:40:14.756521"], ["updated_at", "2020-08-01 17:40:14.756521"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "PHIO PHARMACEUTICALS CORP"], ["ticker", "PHIO"], ["current_price", 2], ["low", 2], ["high", 2], ["created_at", "2020-08-01 17:40:15.340279"], ["updated_at", "2020-08-01 17:40:15.340279"]]
+  [1m[35m (51.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "SECOND SIGHT MEDICAL PRODUCT"], ["ticker", "EYES"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 17:40:15.996211"], ["updated_at", "2020-08-01 17:40:15.996211"]]
+  [1m[35m (54.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.6ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "BOWL AMERICA INC-CLASS A"], ["ticker", "BWL.A"], ["current_price", 9], ["low", 9], ["high", 9], ["created_at", "2020-08-01 17:40:16.719648"], ["updated_at", "2020-08-01 17:40:16.719648"]]
+  [1m[35m (69.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.5ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "DINE BRANDS GLOBAL INC"], ["ticker", "DIN"], ["current_price", 45], ["low", 43], ["high", 46], ["created_at", "2020-08-01 17:40:17.384098"], ["updated_at", "2020-08-01 17:40:17.384098"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (0.7ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "KEY-K"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 17:40:18.157084"], ["updated_at", "2020-08-01 17:40:18.157084"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStock Create (2.0ms)[0m  [1m[32mINSERT INTO "stocks" ("name", "ticker", "current_price", "low", "high", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["ticker", "GLOP-C"], ["current_price", 0], ["low", 0], ["high", 0], ["created_at", "2020-08-01 17:40:19.149493"], ["updated_at", "2020-08-01 17:40:19.149493"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/0/5616/3744"], ["created_at", "2020-08-01 17:40:19.907318"], ["updated_at", "2020-08-01 17:40:19.907318"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1/5616/3744"], ["created_at", "2020-08-01 17:40:19.924059"], ["updated_at", "2020-08-01 17:40:19.924059"]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (2.0ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/10/2500/1667"], ["created_at", "2020-08-01 17:40:19.934607"], ["updated_at", "2020-08-01 17:40:19.934607"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/100/2500/1656"], ["created_at", "2020-08-01 17:40:19.943726"], ["updated_at", "2020-08-01 17:40:19.943726"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1000/5626/3635"], ["created_at", "2020-08-01 17:40:19.952145"], ["updated_at", "2020-08-01 17:40:19.952145"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1001/5616/3744"], ["created_at", "2020-08-01 17:40:19.959450"], ["updated_at", "2020-08-01 17:40:19.959450"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1002/4312/2868"], ["created_at", "2020-08-01 17:40:19.985295"], ["updated_at", "2020-08-01 17:40:19.985295"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1003/1181/1772"], ["created_at", "2020-08-01 17:40:19.994304"], ["updated_at", "2020-08-01 17:40:19.994304"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.9ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1004/5616/3744"], ["created_at", "2020-08-01 17:40:20.000523"], ["updated_at", "2020-08-01 17:40:20.000523"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mImage Create (0.9ms)[0m  [1m[32mINSERT INTO "images" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://picsum.photos/id/1005/5760/3840"], ["created_at", "2020-08-01 17:40:20.009973"], ["updated_at", "2020-08-01 17:40:20.009973"]]
+  [1m[35m (19.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-08-01 11:40:35 -0600
+Started GET "/stocks" for ::1 at 2020-08-01 11:40:35 -0600
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StocksController#index as */*
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mStock Load (0.8ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+Processing by ArticlesController#index as */*
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  [1m[36mArticle Load (2.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Completed 200 OK in 64ms (Views: 56.7ms | ActiveRecord: 1.9ms | Allocations: 10791)
+
+
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 86ms (Views: 76.0ms | ActiveRecord: 5.6ms | Allocations: 15986)
+
+
+Started GET "/stocks" for ::1 at 2020-08-01 12:14:12 -0600
+Started GET "/articles" for ::1 at 2020-08-01 12:14:12 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 52ms (Views: 47.4ms | ActiveRecord: 1.6ms | Allocations: 3769)
+
+
+Processing by StocksController#index as */*
+  [1m[36mStock Load (2.4ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 52ms (Views: 48.4ms | ActiveRecord: 2.4ms | Allocations: 3013)
+
+

@@ -44,7 +44,8 @@ fetch(newsUrl)
     .then(stocks => {
       stocks.forEach(stock => {
         const $li = document.createElement("li")
-        $li.innerHTML = `${stock.name}: ${stock.ticker}, $${stock.current_price}`
+        $li.classList.add("stock")
+        $li.innerHTML = `${stock.ticker}: $${stock.current_price}`
         $stockList.append($li)
       })
     })
