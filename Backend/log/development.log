@@ -6468,3 +6468,40 @@ Completed 200 OK in 57ms (Views: 51.8ms | ActiveRecord: 0.9ms | Allocations: 445
 Completed 200 OK in 57ms (Views: 53.0ms | ActiveRecord: 0.4ms | Allocations: 6544)
 
 
+Started GET "/stocks" for ::1 at 2020-08-02 15:47:48 -0600
+Started GET "/articles" for ::1 at 2020-08-02 15:47:48 -0600
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StocksController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mStock Load (1.3ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  [1m[36mArticle Load (2.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 79ms (Views: 61.5ms | ActiveRecord: 1.3ms | Allocations: 4085)
+
+
+Completed 200 OK in 115ms (Views: 82.3ms | ActiveRecord: 2.8ms | Allocations: 6688)
+
+
+Started GET "/stocks" for ::1 at 2020-08-02 15:50:41 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (2.5ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 57ms (Views: 48.8ms | ActiveRecord: 2.5ms | Allocations: 3003)
+
+
+Started GET "/stocks" for ::1 at 2020-08-02 15:51:50 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (1.6ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 39ms (Views: 32.3ms | ActiveRecord: 1.6ms | Allocations: 2982)
+
+
+Started GET "/stocks" for ::1 at 2020-08-02 15:53:31 -0600
+Processing by StocksController#index as */*
+  [1m[36mStock Load (1.6ms)[0m  [1m[34mSELECT "stocks".* FROM "stocks"[0m
+  ↳ app/controllers/stocks_controller.rb:5:in `index'
+Completed 200 OK in 37ms (Views: 29.8ms | ActiveRecord: 1.6ms | Allocations: 2982)
+
+
