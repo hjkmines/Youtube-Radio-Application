@@ -12,22 +12,88 @@ const fourthRow = document.querySelector('.fourth-row')
 const fifthRow = document.querySelector('.fifth-row')
 const sixthRow = document.querySelector('.sixth-row')
 
-const newsURL = [businessURL, entertainmentURL, healthURL, scienceURL, sportsURL, technologyURL]
-const section = [firstRow, secondRow, thirdRow, fourthRow, fifthRow, sixthRow]
+  fetch(businessURL)
+    .then(response => response.json())
+    .then(response => { 
+      for (i = 0; i < 5; i++) {
+        const $div = document.createElement('div')
+        $div.classList.add("card")
+        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        <div class="card-body">
+          <h5 class="card-title">${response.articles[i].title}</h5>
+          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+        </div>`
+        firstRow.append($div)
+      }
+    })
+  fetch(entertainmentURL)
+    .then(response => response.json())
+    .then(response => { 
+      for (i = 0; i < 5; i++) {
+        const $div = document.createElement('div')
+        $div.classList.add("card")
+        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        <div class="card-body">
+          <h5 class="card-title">${response.articles[i].title}</h5>
+          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+        </div>`
+        secondRow.append($div)
+      }
+    })
+  fetch(healthURL)
+    .then(response => response.json())
+    .then(response => { 
+      for (i = 0; i < 5; i++) {
+        const $div = document.createElement('div')
+        $div.classList.add("card")
+        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        <div class="card-body">
+          <h5 class="card-title">${response.articles[i].title}</h5>
+          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+        </div>`
+        thirdRow.append($div)
+      }
+    })
+  fetch(scienceURL)
+    .then(response => response.json())
+    .then(response => { 
+      for (i = 0; i < 5; i++) {
+        const $div = document.createElement('div')
+        $div.classList.add("card")
+        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        <div class="card-body">
+          <h5 class="card-title">${response.articles[i].title}</h5>
+          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+        </div>`
+        fourthRow.append($div)
+      }
+    })
+  fetch(sportsURL)
+    .then(response => response.json())
+    .then(response => { 
+      for (i = 0; i < 5; i++) {
+        const $div = document.createElement('div')
+        $div.classList.add("card")
+        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        <div class="card-body">
+          <h5 class="card-title">${response.articles[i].title}</h5>
+          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+        </div>`
+        fifthRow.append($div)
+      }
+    })
+  fetch(technologyURL)
+    .then(response => response.json())
+    .then(response => { 
+      for (i = 0; i < 5; i++) {
+        const $div = document.createElement('div')
+        $div.classList.add("card")
+        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        <div class="card-body">
+          <h5 class="card-title">${response.articles[i].title}</h5>
+          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+        </div>`
+        sixthRow.append($div)
+      }
+    })
 
-newsURL.forEach((url) => {
-  fetch(url)
-  .then(response => response.json())
-  .then(response => { 
-    for (i = 0; i < 5; i++) {
-      const $div = document.createElement('div')
-      $div.classList.add("card")
-      $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">${response.articles[i].title}</h5>
-        <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
-      </div>`
-      firstRow.append($div)
-    }
-  })
-})
