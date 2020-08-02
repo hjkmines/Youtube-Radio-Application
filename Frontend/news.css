@@ -3,7 +3,6 @@ body {
 }
 
 .first-row {
-  margin-top: 80px;
 }
 
 .last-row {
@@ -17,6 +16,16 @@ body {
 .nav-link {
   margin-left: 10px; 
   margin-right: 10px;
+}
+
+.card {
+  width: 18rem;
+}
+
+#business {
+  margin-top: 80px;
+  text-align: center;
+  color: white; 
 }
 
 #brand {

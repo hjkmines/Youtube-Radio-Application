@@ -122,8 +122,20 @@ li {
 
 .access {
   margin-left: 50px;
- 
- 
+}
+
+.clips {
+  border: white;
+  border-style: solid;
+}
+
+.trending-videos {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 25px;
 }
 
 .bottom-video {
