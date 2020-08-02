@@ -104,10 +104,26 @@ li {
   margin-left: 120px;
 }
 
+.card-image {
+  width: 286px; 
+  height: 184px; 
+}
+
 .top-video {
   margin-bottom: 30px;
   border: white;
   border-style: solid;
+}
+
+.article-title {
+  width: 245px; 
+  height: 120px;
+}
+
+.access {
+  margin-left: 50px;
+ 
+ 
 }
 
 .bottom-video {
@@ -163,6 +179,10 @@ li {
 
 #video-title {
   color: white;
+}
+
+#vids {
+  margin-bottom: 30px;
 }
 
 h1.header {

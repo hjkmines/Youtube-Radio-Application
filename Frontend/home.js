@@ -53,10 +53,10 @@ fetch(newsUrl)
 
       const $div = document.createElement('div')
       $div.classList.add('card')
-      $div.innerHTML = `<img class="card-img-top" src="${articles[i].image}" alt="Card image cap">
+      $div.innerHTML = `<img class="card-img-top card-image" src="${articles[i].image}" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">${articles[i].title}</h5>
-        <a href="${articles[i].url}" class="btn btn-primary">Go to full article</a>
+        <h5 class="card-title article-title">${articles[i].title}</h5>
+        <a href="${articles[i].url}" class="btn btn-primary access">Go to full article</a>
       </div>`
       $newsRow.append($div)
     }
