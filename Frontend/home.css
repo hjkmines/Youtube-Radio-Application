@@ -50,6 +50,11 @@ li {
   height: 400px; 
 }
 
+.article-button {
+  display: flex; 
+  justify-content: center; 
+}
+
 .images {
   width 780px; 
   height: 445px; 
@@ -118,10 +123,6 @@ li {
 .article-title {
   width: 245px; 
   height: 120px;
-}
-
-.access {
-  margin-left: 50px;
 }
 
 .clips {

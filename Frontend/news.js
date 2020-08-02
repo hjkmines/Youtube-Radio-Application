@@ -18,10 +18,10 @@ const sixthRow = document.querySelector('.sixth-row')
       for (i = 0; i < 5; i++) {
         const $div = document.createElement('div')
         $div.classList.add("card")
-        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        $div.innerHTML = `<img class="card-img-top picture" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
         <div class="card-body">
           <h5 class="card-title">${response.articles[i].title}</h5>
-          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+          <section class="article-button"><a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a></section>
         </div>`
         firstRow.append($div)
       }
@@ -32,10 +32,10 @@ const sixthRow = document.querySelector('.sixth-row')
       for (i = 0; i < 5; i++) {
         const $div = document.createElement('div')
         $div.classList.add("card")
-        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        $div.innerHTML = `<img class="card-img-top picture" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
         <div class="card-body">
           <h5 class="card-title">${response.articles[i].title}</h5>
-          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+          <section class="article-button"><a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a></section>
         </div>`
         secondRow.append($div)
       }
@@ -46,10 +46,10 @@ const sixthRow = document.querySelector('.sixth-row')
       for (i = 0; i < 5; i++) {
         const $div = document.createElement('div')
         $div.classList.add("card")
-        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        $div.innerHTML = `<img class="card-img-top picture" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
         <div class="card-body">
           <h5 class="card-title">${response.articles[i].title}</h5>
-          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+          <section class="article-button"><a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a></section>
         </div>`
         thirdRow.append($div)
       }
@@ -60,10 +60,10 @@ const sixthRow = document.querySelector('.sixth-row')
       for (i = 0; i < 5; i++) {
         const $div = document.createElement('div')
         $div.classList.add("card")
-        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        $div.innerHTML = `<img class="card-img-top picture" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
         <div class="card-body">
           <h5 class="card-title">${response.articles[i].title}</h5>
-          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+          <section class="article-button"><a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a></section>
         </div>`
         fourthRow.append($div)
       }
@@ -74,10 +74,10 @@ const sixthRow = document.querySelector('.sixth-row')
       for (i = 0; i < 5; i++) {
         const $div = document.createElement('div')
         $div.classList.add("card")
-        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        $div.innerHTML = `<img class="card-img-top picture" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
         <div class="card-body">
           <h5 class="card-title">${response.articles[i].title}</h5>
-          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+          <section class="article-button"><a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a></section>
         </div>`
         fifthRow.append($div)
       }
@@ -88,10 +88,10 @@ const sixthRow = document.querySelector('.sixth-row')
       for (i = 0; i < 5; i++) {
         const $div = document.createElement('div')
         $div.classList.add("card")
-        $div.innerHTML = `<img class="card-img-top" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
+        $div.innerHTML = `<img class="card-img-top picture" src="${response.articles[i].urlToImage}" alt="Card image cap" onerror="this.src='./google_news.png'">
         <div class="card-body">
           <h5 class="card-title">${response.articles[i].title}</h5>
-          <a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a>
+          <section class="article-button"><a href="${response.articles[i].url}" class="btn btn-primary">Go to full article</a></section>
         </div>`
         sixthRow.append($div)
       }

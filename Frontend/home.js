@@ -56,7 +56,7 @@ fetch(newsUrl)
       $div.innerHTML = `<img class="card-img-top card-image" src="${articles[i].image}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title article-title">${articles[i].title}</h5>
-        <a href="${articles[i].url}" class="btn btn-primary access">Go to full article</a>
+        <section class="article-button"><a href="${articles[i].url}" class="btn btn-primary access">Go to full article</a></section>
       </div>`
       $newsRow.append($div)
     }
