@@ -52,8 +52,9 @@ li {
 
 .article-button {
   display: flex; 
-  justify-content: center; 
+  justify-content: space-evenly; 
 }
+
 
 .images {
   width 780px; 
