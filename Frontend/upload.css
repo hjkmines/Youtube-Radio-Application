@@ -31,3 +31,25 @@ footer {
   margin-bottom: 25px;
   font-weight: 700;
 }
+
+.upload {
+  margin: auto;
+  margin-top: 400px;
+  border: black;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: medium;
+  background-color: seashell;
+}
+
+.question {
+  text-align: center;
+}
+
+#content {
+  margin-bottom: 20px;
+}
+
+.file {
+  margin-bottom: 20px;
+}
