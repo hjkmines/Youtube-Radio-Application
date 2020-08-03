@@ -24,9 +24,8 @@ class UsersController < ApplicationController
       render :new 
       @user.errors 
     end 
-
-      render json: @user 
-    end 
+      redirect_to "http://localhost:3001/index.html"
+  end 
 
   private
 

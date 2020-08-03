@@ -1,6 +1,5 @@
 class User < ApplicationRecord
-  validates :first_name, precense: true  
-  validates :last_name, precense: true 
-  validates :email, precense: true, format: { with: URI::MailTo::EMAIL_REGEXP }
-  validates :password, uniqueness: true, length: {in: 7..25}, precense: true
+  validates_presence_of :first_name, :last_name, :email, :password 
+  validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
+  validates :password, uniqueness: true, length: {in: 7..25}
 end
