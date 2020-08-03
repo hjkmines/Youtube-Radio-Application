@@ -2,21 +2,28 @@ body {
   background-image: url('/youtube_wall.png');
 }
 
-.first-row {
-  margin-top: 80px;
-}
-
-.last-row {
-  margin-bottom: 100px;
-}
-
-.card {
-  margin-top: 45px;
-}
-
 .nav-link {
   margin-left: 10px; 
   margin-right: 10px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+#images {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+
+.picture {
+  width: 700px;
+  height: 400px;
+  margin: 0 20px 20px 20px; 
+  border: white;
+  border-style: solid;
 }
 
 #brand {
@@ -30,4 +37,11 @@ footer {
   text-align: center;
   margin-bottom: 25px;
   font-weight: 700;
+}
+
+.pics  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }

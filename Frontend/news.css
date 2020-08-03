@@ -42,8 +42,14 @@ h5.card-title {
   justify-content: center;
 }
 
+.section {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
 #business {
-  margin-top: 80px;
+  margin-top: 75px;
   text-align: center;
   color: white; 
 }
