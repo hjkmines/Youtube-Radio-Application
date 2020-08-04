@@ -17,7 +17,7 @@ RedDoor Media is a full stack web application delivering live news, videos, imag
 Welcome to RedDoor Media. 
 
 ## Intro Video
-<!-- [What's Happening on YouTube](https://www.youtube.com/watch?v=cR0qsPMTY5E) -->
+[RedDoor Media on YouTube](https://www.youtube.com/watch?v=sSWGjKcLbBQ&feature=youtu.be)
 
 ## Technologies
 ### Backend Development 
