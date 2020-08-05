@@ -17,13 +17,13 @@ class UsersController < ApplicationController
   def create 
     @user = User.create(user_params)
 
-    # if @user.valid?
-    #   @user.save
-    #   redirect_to user_path(@user)
-    # else 
-    #   render :new 
-    #   @user.errors 
-    # end 
+    if @user.valid?
+      @user.save
+      redirect_to user_path(@user)
+    else 
+      render :new 
+      @user.errors 
+    end 
       redirect_to "http://localhost:3001/index.html"
   end 
 
